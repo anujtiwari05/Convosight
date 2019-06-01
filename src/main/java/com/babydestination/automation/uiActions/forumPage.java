@@ -16,7 +16,7 @@ public class forumPage extends TestBase {
     loginSignup loginsignup;
 
 //    @FindBy(xpath = "/html/body/app-root/app-header/div/nav/div[1]/div[2]/a[1]/span")
-    @FindBy(css = "a.nav-option:nth-child(2) > span:nth-child(2)")
+    @FindBy(xpath = "/html/body/app-root/app-header/div/div/nav/div[1]/div[2]/a[1]/span")
     WebElement askMomHeader;
     @FindBy(xpath = "/html/body/app-root/div[1]/app-forum/div[1]/div/div[1]/div[1]/div[2]")
     WebElement askButton;
@@ -45,6 +45,10 @@ public class forumPage extends TestBase {
 //    @FindBy(xpath = "/html/body/app-root/div[1]/app-forum/div[1]/div/div[1]/div[2]/div[2]/app-forum-question-card/div")
     @FindBy(xpath = "/html/body/app-root/div[1]/app-forum/div[1]/div/div[1]/div[2]/div[1]")
     WebElement viewQues;
+    @FindBy(xpath = "/html/body/app-root/div[1]/app-forum/div[2]/app-select-topic/div/div/div/div[1]/a[5]")
+    WebElement parentingQues;
+    @FindBy(xpath = "/html/body/app-root/div[1]/app-forum/div[2]/app-select-topic/div/div/div/button")
+    WebElement submitCatPopup;
 
 
     public forumPage(WebDriver driver) {
@@ -77,8 +81,8 @@ public class forumPage extends TestBase {
         pause2();
         quesArea.sendKeys("testing question on forum for auto");
         pause2();
-        selectCat.click();
-        pause2();
+//        selectCat.click();
+//        pause2();
         postQues.click();
         loginsignup = new loginSignup(driver);
         loginsignup.login();
