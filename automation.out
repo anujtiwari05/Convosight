@@ -1,0 +1,525 @@
+2018-08-29 12:27:40 INFO  TestBase:150 - navigating to :-https://stg.babydestination.com/home
+2018-08-29 12:31:04 INFO  TestBase:150 - navigating to :-https://stg.babydestination.com/home
+2018-08-29 12:32:23 INFO  TestBase:150 - navigating to :-https://stg.babydestination.com/home
+2018-08-29 12:36:59 INFO  TestBase:150 - navigating to :-https://stg.babydestination.com/home
+2018-08-29 12:40:51 INFO  TestBase:150 - navigating to :-https://stg.babydestination.com/home
+2018-08-29 12:44:55 INFO  TestBase:150 - navigating to :-https://stg.babydestination.com/home
+2018-09-01 13:20:58 INFO  TestBase:150 - navigating to :-https://stg.babydestination.com/home
+2018-09-01 13:40:41 INFO  TestBase:150 - navigating to :-https://www.babydestination.com/home
+2018-09-01 13:49:39 INFO  TestBase:150 - navigating to :-https://www.babydestination.com/home
+2018-09-01 13:52:02 INFO  TestBase:150 - navigating to :-https://www.babydestination.com/home
+2018-09-01 13:53:54 INFO  TestBase:150 - navigating to :-https://www.babydestination.com/home
+2018-09-01 13:56:56 INFO  TestBase:150 - navigating to :-https://www.babydestination.com/home
+2018-09-01 13:58:39 INFO  TestBase:150 - navigating to :-https://www.babydestination.com/home
+2018-09-01 14:20:24 INFO  TestBase:150 - navigating to :-https://www.babydestination.com/home
+2018-09-01 14:24:35 INFO  TestBase:150 - navigating to :-https://www.babydestination.com/home
+2018-09-01 14:27:04 INFO  TestBase:150 - navigating to :-https://www.babydestination.com/home
+2018-09-01 14:30:32 INFO  TestBase:346 - browser closed
+2018-09-01 14:37:07 INFO  TestBase:150 - navigating to :-https://www.babydestination.com/home
+2018-09-01 14:37:13 INFO  TestBase:346 - browser closed
+2018-09-01 14:37:50 INFO  TestBase:150 - navigating to :-https://www.babydestination.com/home
+2018-09-01 14:38:10 INFO  TestBase:346 - browser closed
+2018-09-01 14:40:25 INFO  TestBase:150 - navigating to :-https://www.babydestination.com/home
+2018-09-11 10:14:20 INFO  TestBase:150 - navigating to :-https://stg.babydestination.com/home
+2018-09-11 10:18:06 INFO  TestBase:346 - browser closed
+2018-09-11 17:18:48 INFO  TestBase:150 - navigating to :-https://stg.babydestination.com/home
+2018-09-12 11:14:09 INFO  TestBase:150 - navigating to :-https://stg.babydestination.com/home
+2018-09-12 11:14:47 INFO  TestBase:346 - browser closed
+2018-09-12 11:20:36 INFO  TestBase:150 - navigating to :-https://stg.babydestination.com/home
+2018-09-12 11:21:17 INFO  TestBase:346 - browser closed
+2018-09-12 11:22:58 INFO  TestBase:150 - navigating to :-https://stg.babydestination.com/home
+2018-09-12 11:23:37 INFO  TestBase:346 - browser closed
+2018-09-12 11:29:14 INFO  TestBase:150 - navigating to :-https://stg.babydestination.com/home
+2018-09-12 11:29:55 INFO  TestBase:346 - browser closed
+2018-09-12 11:32:38 INFO  TestBase:150 - navigating to :-https://stg.babydestination.com/home
+2018-09-12 11:33:19 INFO  TestBase:346 - browser closed
+2018-09-12 11:38:17 INFO  TestBase:150 - navigating to :-https://stg.babydestination.com/home
+2018-09-12 17:48:59 INFO  TestBase:150 - navigating to :-https://stg.babydestination.com/home
+2018-09-12 17:52:26 INFO  TestBase:346 - browser closed
+2018-09-12 17:54:42 INFO  TestBase:150 - navigating to :-https://stg.babydestination.com/home
+2018-09-12 17:56:29 INFO  TestBase:346 - browser closed
+2018-09-15 12:35:53 INFO  TestBase:150 - navigating to :-https://stg.babydestination.com/home
+2018-09-15 12:37:30 INFO  TestBase:150 - navigating to :-https://stg.babydestination.com/home
+2018-09-15 12:39:24 INFO  TestBase:150 - navigating to :-https://stg.babydestination.com/home
+2018-09-15 12:39:41 INFO  TestBase:346 - browser closed
+2018-09-15 12:41:01 INFO  TestBase:150 - navigating to :-https://stg.babydestination.com/home
+2018-09-15 12:42:43 INFO  TestBase:150 - navigating to :-https://stg.babydestination.com/home
+2018-09-15 12:45:10 INFO  TestBase:150 - navigating to :-https://stg.babydestination.com/home
+2018-09-15 12:47:19 INFO  TestBase:150 - navigating to :-https://stg.babydestination.com/home
+2018-09-15 13:11:06 INFO  TestBase:150 - navigating to :-https://stg.babydestination.com/home
+2018-09-15 13:14:02 INFO  TestBase:150 - navigating to :-https://stg.babydestination.com/home
+2018-09-15 13:14:21 INFO  TestBase:346 - browser closed
+2018-09-15 13:15:00 INFO  TestBase:150 - navigating to :-https://stg.babydestination.com/home
+2018-09-15 13:15:18 INFO  TestBase:346 - browser closed
+2018-09-15 13:16:29 INFO  TestBase:150 - navigating to :-https://stg.babydestination.com/home
+2018-09-15 13:16:46 INFO  TestBase:346 - browser closed
+2018-09-15 13:17:23 INFO  TestBase:150 - navigating to :-https://stg.babydestination.com/home
+2018-09-15 13:17:44 INFO  TestBase:346 - browser closed
+2018-09-15 13:19:35 INFO  TestBase:150 - navigating to :-https://stg.babydestination.com/home
+2018-09-15 13:19:53 INFO  TestBase:346 - browser closed
+2018-09-15 13:21:35 INFO  TestBase:150 - navigating to :-https://stg.babydestination.com/home
+2018-09-15 13:49:55 INFO  TestBase:150 - navigating to :-https://stg.babydestination.com/home
+2018-09-15 13:51:32 INFO  TestBase:346 - browser closed
+2018-09-15 13:52:24 INFO  TestBase:150 - navigating to :-https://stg.babydestination.com/home
+2018-09-15 13:52:45 INFO  TestBase:150 - navigating to :-https://stg.babydestination.com/home
+2018-09-15 13:53:16 INFO  TestBase:346 - browser closed
+2018-09-15 13:54:26 INFO  TestBase:150 - navigating to :-https://stg.babydestination.com/home
+2018-09-15 13:55:13 INFO  TestBase:346 - browser closed
+2018-09-15 13:57:21 INFO  TestBase:150 - navigating to :-https://stg.babydestination.com/home
+2018-09-15 13:57:57 INFO  TestBase:346 - browser closed
+2018-09-15 13:58:54 INFO  TestBase:150 - navigating to :-https://stg.babydestination.com/home
+2018-09-15 13:59:32 INFO  TestBase:346 - browser closed
+2018-09-17 09:53:47 INFO  TestBase:150 - navigating to :-https://stg.babydestination.com/home
+2018-09-17 09:54:24 INFO  TestBase:346 - browser closed
+2018-09-17 09:56:30 INFO  TestBase:150 - navigating to :-https://stg.babydestination.com/home
+2018-09-17 09:57:07 INFO  TestBase:346 - browser closed
+2018-09-17 12:13:50 INFO  TestBase:150 - navigating to :-https://stg.babydestination.com/home
+2018-09-17 12:14:01 INFO  TestBase:150 - navigating to :-https://stg.babydestination.com/home
+2018-09-17 12:14:21 INFO  TestBase:150 - navigating to :-https://stg.babydestination.com/home
+2018-09-17 12:15:07 INFO  TestBase:346 - browser closed
+2018-09-17 12:15:14 INFO  TestBase:346 - browser closed
+2018-09-17 12:18:50 INFO  TestBase:346 - browser closed
+2018-09-17 17:57:14 INFO  TestBase:150 - navigating to :-https://stg.babydestination.com/home
+2018-09-17 18:00:49 INFO  TestBase:346 - browser closed
+2018-09-18 10:43:51 INFO  TestBase:150 - navigating to :-https://stg.babydestination.com/home
+2018-09-18 10:44:23 INFO  TestBase:346 - browser closed
+2018-09-18 10:48:20 INFO  TestBase:150 - navigating to :-https://stg.babydestination.com/home
+2018-09-18 10:50:07 INFO  TestBase:346 - browser closed
+2018-09-18 11:41:02 INFO  TestBase:150 - navigating to :-https://stg.babydestination.com/home
+2018-09-18 11:41:42 INFO  TestBase:346 - browser closed
+2018-09-18 12:04:53 INFO  TestBase:150 - navigating to :-https://stg.babydestination.com/home
+2018-09-18 12:44:48 INFO  TestBase:150 - navigating to :-http://dev.babydestination.com/home
+2018-09-18 12:49:39 INFO  TestBase:150 - navigating to :-http://dev.babydestination.com/home
+2018-09-18 12:51:25 INFO  TestBase:150 - navigating to :-http://dev.babydestination.com/home
+2018-09-18 12:52:05 INFO  TestBase:346 - browser closed
+2018-09-18 12:53:42 INFO  TestBase:150 - navigating to :-http://dev.babydestination.com/home
+2018-09-18 12:57:17 INFO  TestBase:150 - navigating to :-http://dev.babydestination.com/home
+2018-09-18 13:01:19 INFO  TestBase:150 - navigating to :-http://dev.babydestination.com/home
+2018-09-18 13:01:49 INFO  TestBase:346 - browser closed
+2018-09-18 13:52:12 INFO  TestBase:151 - navigating to :-http://dev.babydestination.com/home
+2018-09-18 13:52:40 INFO  TestBase:347 - browser closed
+2018-09-18 13:54:38 INFO  TestBase:151 - navigating to :-http://dev.babydestination.com/home
+2018-09-18 13:55:10 INFO  TestBase:347 - browser closed
+2018-09-18 13:59:31 INFO  TestBase:151 - navigating to :-http://dev.babydestination.com/home
+2018-09-18 14:00:00 INFO  TestBase:347 - browser closed
+2018-09-18 14:18:22 INFO  TestBase:151 - navigating to :-http://dev.babydestination.com/home
+2018-09-18 14:18:34 INFO  TestBase:151 - navigating to :-http://dev.babydestination.com/home
+2018-09-18 14:18:45 INFO  TestBase:151 - navigating to :-http://dev.babydestination.com/home
+2018-09-18 14:18:56 INFO  TestBase:151 - navigating to :-http://dev.babydestination.com/home
+2018-09-18 14:19:30 INFO  TestBase:151 - navigating to :-http://dev.babydestination.com/home
+2018-09-18 14:19:46 INFO  TestBase:151 - navigating to :-http://dev.babydestination.com/home
+2018-09-18 14:19:57 INFO  TestBase:151 - navigating to :-http://dev.babydestination.com/home
+2018-09-18 14:20:03 INFO  TestBase:151 - navigating to :-http://dev.babydestination.com/home
+2018-09-18 14:21:26 INFO  TestBase:151 - navigating to :-http://dev.babydestination.com/home
+2018-09-18 14:21:40 INFO  TestBase:151 - navigating to :-http://dev.babydestination.com/home
+2018-09-18 14:21:52 INFO  TestBase:151 - navigating to :-http://dev.babydestination.com/home
+2018-09-18 14:22:03 INFO  TestBase:151 - navigating to :-http://dev.babydestination.com/home
+2018-09-18 14:22:35 INFO  TestBase:347 - browser closed
+2018-09-18 14:23:18 INFO  TestBase:347 - browser closed
+2018-09-18 14:28:52 INFO  TestBase:151 - navigating to :-http://dev.babydestination.com/home
+2018-09-18 14:29:20 INFO  TestBase:151 - navigating to :-http://dev.babydestination.com/home
+2018-09-18 14:29:50 INFO  TestBase:151 - navigating to :-http://dev.babydestination.com/home
+2018-09-18 14:30:07 INFO  TestBase:151 - navigating to :-http://dev.babydestination.com/home
+2018-09-18 14:30:51 INFO  TestBase:347 - browser closed
+2018-09-18 14:31:06 INFO  TestBase:347 - browser closed
+2018-09-18 14:58:06 INFO  TestBase:151 - navigating to :-http://dev.babydestination.com/home
+2018-09-18 14:58:21 INFO  TestBase:151 - navigating to :-http://dev.babydestination.com/home
+2018-09-18 14:58:44 INFO  TestBase:151 - navigating to :-http://dev.babydestination.com/home
+2018-09-18 14:59:10 INFO  TestBase:151 - navigating to :-http://dev.babydestination.com/home
+2018-09-18 15:06:19 INFO  TestBase:152 - navigating to :-http://dev.babydestination.com/home
+2018-09-18 15:06:29 INFO  TestBase:152 - navigating to :-http://dev.babydestination.com/home
+2018-09-18 15:06:40 INFO  TestBase:348 - browser closed
+2018-09-18 15:06:40 INFO  TestBase:152 - navigating to :-http://dev.babydestination.com/home
+2018-09-18 15:06:50 INFO  TestBase:152 - navigating to :-http://dev.babydestination.com/home
+2018-09-18 15:07:16 INFO  TestBase:348 - browser closed
+2018-09-18 15:07:16 INFO  TestBase:348 - browser closed
+2018-09-18 15:07:32 INFO  TestBase:348 - browser closed
+2018-09-18 15:07:32 INFO  TestBase:348 - browser closed
+2018-09-18 15:11:28 INFO  TestBase:348 - browser closed
+2018-09-18 17:47:44 INFO  TestBase:152 - navigating to :-https://www.babydestination.com/home
+2018-09-18 17:47:50 INFO  TestBase:152 - navigating to :-https://www.babydestination.com/home
+2018-09-18 17:47:56 INFO  TestBase:152 - navigating to :-https://www.babydestination.com/home
+2018-09-18 17:48:04 INFO  TestBase:152 - navigating to :-https://www.babydestination.com/home
+2018-09-18 17:48:27 INFO  TestBase:348 - browser closed
+2018-09-18 17:48:43 INFO  TestBase:348 - browser closed
+2018-09-18 17:51:16 INFO  TestBase:348 - browser closed
+2018-09-20 10:07:22 INFO  TestBase:152 - navigating to :-https://www.babydestination.com/home
+2018-09-20 10:07:30 INFO  TestBase:348 - browser closed
+2018-09-20 10:10:04 INFO  TestBase:152 - navigating to :-https://www.babydestination.com/home
+2018-09-20 10:10:10 INFO  TestBase:348 - browser closed
+2018-09-20 10:11:43 INFO  TestBase:152 - navigating to :-https://stg.babydestination.com/home
+2018-09-20 10:12:07 INFO  TestBase:348 - browser closed
+2018-09-20 10:12:47 INFO  TestBase:152 - navigating to :-https://stg.babydestination.com/home
+2018-09-20 10:14:42 INFO  TestBase:348 - browser closed
+2018-09-20 10:27:34 INFO  TestBase:152 - navigating to :-https://stg.babydestination.com/home
+2018-09-20 10:33:13 INFO  TestBase:153 - navigating to :-https://stg.babydestination.com/home
+2018-09-20 10:37:16 INFO  TestBase:349 - browser closed
+2018-09-20 10:42:16 INFO  TestBase:153 - navigating to :-https://stg.babydestination.com/home
+2018-09-20 10:42:34 INFO  TestBase:349 - browser closed
+2018-09-20 10:47:45 INFO  TestBase:153 - navigating to :-https://stg.babydestination.com/home
+2018-09-20 10:58:09 INFO  TestBase:153 - navigating to :-https://stg.babydestination.com/home
+2018-09-20 11:02:05 INFO  TestBase:153 - navigating to :-https://stg.babydestination.com/home
+2018-09-20 11:04:08 INFO  TestBase:153 - navigating to :-https://stg.babydestination.com/home
+2018-09-20 11:04:50 INFO  TestBase:153 - navigating to :-https://stg.babydestination.com/home
+2018-09-20 11:07:42 INFO  TestBase:153 - navigating to :-https://stg.babydestination.com/home
+2018-09-20 11:08:19 INFO  TestBase:153 - navigating to :-https://stg.babydestination.com/home
+2018-09-20 11:12:01 INFO  TestBase:153 - navigating to :-https://stg.babydestination.com/home
+2018-09-20 11:14:35 INFO  TestBase:153 - navigating to :-https://stg.babydestination.com/home
+2018-09-20 11:24:20 INFO  TestBase:153 - navigating to :-https://stg.babydestination.com/home
+2018-09-20 11:34:39 INFO  TestBase:153 - navigating to :-https://stg.babydestination.com/home
+2018-09-20 11:41:15 INFO  TestBase:349 - browser closed
+2018-09-20 12:04:36 INFO  TestBase:153 - navigating to :-https://stg.babydestination.com/home
+2018-09-20 12:09:40 INFO  TestBase:350 - browser closed
+2018-09-20 14:17:24 INFO  TestBase:153 - navigating to :-https://stg.babydestination.com/home
+2018-09-20 14:18:26 INFO  TestBase:350 - browser closed
+2018-09-20 14:27:11 INFO  TestBase:153 - navigating to :-https://stg.babydestination.com/home
+2018-09-20 14:27:58 INFO  TestBase:350 - browser closed
+2018-09-20 14:48:34 INFO  TestBase:153 - navigating to :-https://stg.babydestination.com/home
+2018-09-20 14:48:46 INFO  TestBase:350 - browser closed
+2018-09-20 14:49:14 INFO  TestBase:153 - navigating to :-https://stg.babydestination.com/home
+2018-09-20 14:49:36 INFO  TestBase:350 - browser closed
+2018-09-20 14:50:15 INFO  TestBase:153 - navigating to :-https://stg.babydestination.com/home
+2018-09-20 14:50:46 INFO  TestBase:350 - browser closed
+2018-09-20 14:52:26 INFO  TestBase:153 - navigating to :-https://stg.babydestination.com/home
+2018-09-20 14:53:03 INFO  TestBase:350 - browser closed
+2018-09-20 14:54:26 INFO  TestBase:153 - navigating to :-https://stg.babydestination.com/home
+2018-09-20 14:55:02 INFO  TestBase:350 - browser closed
+2018-09-20 14:56:18 INFO  TestBase:153 - navigating to :-https://stg.babydestination.com/home
+2018-09-20 14:56:51 INFO  TestBase:350 - browser closed
+2018-09-20 14:59:51 INFO  TestBase:153 - navigating to :-https://stg.babydestination.com/home
+2018-09-20 15:00:57 INFO  TestBase:350 - browser closed
+2018-09-20 15:05:59 INFO  TestBase:153 - navigating to :-https://stg.babydestination.com/home
+2018-09-20 15:06:23 INFO  TestBase:350 - browser closed
+2018-09-20 15:07:59 INFO  TestBase:153 - navigating to :-https://stg.babydestination.com/home
+2018-09-20 15:08:58 INFO  TestBase:350 - browser closed
+2018-09-20 15:09:56 INFO  TestBase:153 - navigating to :-https://stg.babydestination.com/home
+2018-09-20 15:14:59 INFO  TestBase:153 - navigating to :-https://stg.babydestination.com/home
+2018-09-20 15:18:04 INFO  TestBase:153 - navigating to :-https://stg.babydestination.com/home
+2018-09-20 15:18:57 INFO  TestBase:350 - browser closed
+2018-09-20 15:26:34 INFO  TestBase:153 - navigating to :-https://stg.babydestination.com/home
+2018-09-20 15:27:41 INFO  TestBase:350 - browser closed
+2018-09-20 15:29:09 INFO  TestBase:153 - navigating to :-https://stg.babydestination.com/home
+2018-09-20 15:32:03 INFO  TestBase:153 - navigating to :-https://stg.babydestination.com/home
+2018-09-20 15:33:11 INFO  TestBase:350 - browser closed
+2018-09-20 15:38:09 INFO  TestBase:153 - navigating to :-https://stg.babydestination.com/home
+2018-09-20 15:39:13 INFO  TestBase:350 - browser closed
+2018-09-20 17:06:18 INFO  TestBase:153 - navigating to :-https://stg.babydestination.com/home
+2018-09-20 17:07:01 INFO  TestBase:350 - browser closed
+2018-09-20 17:09:59 INFO  TestBase:153 - navigating to :-https://stg.babydestination.com/home
+2018-09-20 17:10:54 INFO  TestBase:350 - browser closed
+2018-09-20 17:16:04 INFO  TestBase:153 - navigating to :-https://stg.babydestination.com/home
+2018-09-20 17:17:08 INFO  TestBase:350 - browser closed
+2018-09-21 11:42:37 INFO  TestBase:153 - navigating to :-https://stg.babydestination.com/home
+2018-09-21 11:43:27 INFO  TestBase:350 - browser closed
+2018-09-21 11:49:05 INFO  TestBase:153 - navigating to :-https://stg.babydestination.com/home
+2018-09-21 11:49:32 INFO  TestBase:350 - browser closed
+2018-09-21 11:52:37 INFO  TestBase:153 - navigating to :-https://stg.babydestination.com/home
+2018-09-21 11:53:22 INFO  TestBase:350 - browser closed
+2018-09-21 12:32:20 INFO  TestBase:153 - navigating to :-https://stg.babydestination.com/home
+2018-09-21 12:32:35 INFO  TestBase:350 - browser closed
+2018-09-21 12:36:36 INFO  TestBase:153 - navigating to :-https://stg.babydestination.com/home
+2018-09-21 12:36:49 INFO  TestBase:350 - browser closed
+2018-09-21 12:38:32 INFO  TestBase:153 - navigating to :-https://stg.babydestination.com/home
+2018-09-21 12:38:50 INFO  TestBase:350 - browser closed
+2018-09-21 12:39:10 INFO  TestBase:153 - navigating to :-https://stg.babydestination.com/home
+2018-09-21 12:39:25 INFO  TestBase:350 - browser closed
+2018-09-21 12:40:06 INFO  TestBase:153 - navigating to :-https://stg.babydestination.com/home
+2018-09-21 12:40:19 INFO  TestBase:350 - browser closed
+2018-09-21 12:41:06 INFO  TestBase:153 - navigating to :-https://stg.babydestination.com/home
+2018-09-21 12:41:21 INFO  TestBase:350 - browser closed
+2018-09-21 12:44:29 INFO  TestBase:153 - navigating to :-https://stg.babydestination.com/home
+2018-09-21 12:44:43 INFO  TestBase:350 - browser closed
+2018-09-21 12:48:45 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-09-21 12:48:59 INFO  TestBase:351 - browser closed
+2018-09-21 12:49:15 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-09-21 12:49:29 INFO  TestBase:351 - browser closed
+2018-09-21 12:50:35 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-09-21 12:54:21 INFO  TestBase:351 - browser closed
+2018-09-21 12:59:12 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-09-21 13:01:17 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-09-21 13:01:54 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-09-21 13:02:59 INFO  TestBase:351 - browser closed
+2018-09-21 13:06:36 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-09-21 13:08:23 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-09-21 13:53:55 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-09-21 14:02:14 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-09-21 14:05:09 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-09-21 14:05:23 INFO  TestBase:351 - browser closed
+2018-09-21 14:05:30 INFO  TestBase:351 - browser closed
+2018-09-21 14:06:22 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-09-21 14:08:48 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-09-21 14:09:06 INFO  TestBase:351 - browser closed
+2018-09-21 14:10:02 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-09-21 14:11:24 INFO  TestBase:351 - browser closed
+2018-09-21 14:13:57 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-09-21 14:14:53 INFO  TestBase:351 - browser closed
+2018-09-21 14:17:10 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-09-21 14:18:03 INFO  TestBase:351 - browser closed
+2018-09-21 14:28:55 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-09-21 14:30:51 INFO  TestBase:351 - browser closed
+2018-09-21 14:36:15 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-09-21 14:38:10 INFO  TestBase:351 - browser closed
+2018-09-21 14:42:11 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-09-21 14:44:00 INFO  TestBase:351 - browser closed
+2018-09-21 14:44:14 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-09-21 14:46:03 INFO  TestBase:351 - browser closed
+2018-09-21 14:48:43 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-09-21 14:49:59 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-09-21 14:50:15 INFO  TestBase:351 - browser closed
+2018-09-21 14:50:42 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-09-21 14:53:22 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-09-21 14:56:25 INFO  TestBase:351 - browser closed
+2018-09-21 14:58:48 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-09-21 15:01:59 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-09-21 15:04:13 INFO  TestBase:351 - browser closed
+2018-09-21 15:05:25 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-09-21 15:09:46 INFO  TestBase:351 - browser closed
+2018-09-21 15:11:30 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-09-21 17:23:16 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-09-24 10:29:53 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-09-24 10:30:12 INFO  TestBase:351 - browser closed
+2018-09-24 10:46:21 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-09-24 10:46:41 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-09-24 10:52:32 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-09-24 10:54:43 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-09-24 11:02:56 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-09-24 11:04:26 INFO  TestBase:351 - browser closed
+2018-09-24 11:31:45 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-09-24 11:35:55 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-09-24 11:37:02 INFO  TestBase:351 - browser closed
+2018-09-24 11:43:02 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-09-24 11:44:41 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-09-24 11:45:10 INFO  TestBase:351 - browser closed
+2018-09-24 11:45:44 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-09-24 11:46:14 INFO  TestBase:351 - browser closed
+2018-09-24 11:48:10 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-09-24 11:48:29 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-09-24 11:48:43 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-09-24 11:49:01 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-09-24 11:49:40 INFO  TestBase:351 - browser closed
+2018-09-24 11:50:00 INFO  TestBase:351 - browser closed
+2018-09-24 11:54:14 INFO  TestBase:351 - browser closed
+2018-09-24 11:58:27 INFO  TestBase:351 - browser closed
+2018-10-05 12:38:25 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-10-05 12:39:10 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-10-05 12:39:26 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-10-05 12:39:38 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-10-05 12:39:50 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-10-05 12:40:31 INFO  TestBase:351 - browser closed
+2018-10-05 12:40:51 INFO  TestBase:351 - browser closed
+2018-10-05 12:45:09 INFO  TestBase:351 - browser closed
+2018-10-05 12:50:00 INFO  TestBase:351 - browser closed
+2018-11-02 10:33:43 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-11-02 10:34:05 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-11-02 10:34:16 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-11-02 10:34:45 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-11-02 10:36:14 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-11-02 10:46:38 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-11-02 10:51:31 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-11-02 11:11:04 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-11-02 11:16:26 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-11-02 11:16:41 INFO  TestBase:351 - browser closed
+2018-11-02 11:18:29 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-11-02 11:18:46 INFO  TestBase:351 - browser closed
+2018-11-02 11:31:08 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-11-02 11:33:56 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-11-02 12:35:12 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-11-03 10:43:21 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-11-03 10:45:22 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-11-03 10:46:41 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-11-03 10:48:59 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-11-03 10:51:44 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-11-03 10:52:42 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-11-03 10:56:34 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-11-03 10:59:46 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-11-03 11:08:56 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-11-12 15:02:18 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-11-12 15:10:26 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-11-12 15:15:04 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-11-12 15:17:13 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-11-12 15:21:22 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-11-12 15:29:13 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-11-12 15:29:36 INFO  TestBase:351 - browser closed
+2018-11-12 15:36:36 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-11-12 15:36:59 INFO  TestBase:351 - browser closed
+2018-11-12 15:42:00 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-11-12 15:42:26 INFO  TestBase:351 - browser closed
+2018-11-12 15:43:30 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-11-12 15:45:17 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-11-12 15:45:43 INFO  TestBase:351 - browser closed
+2018-11-12 15:46:09 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-11-12 15:46:30 INFO  TestBase:351 - browser closed
+2018-11-12 15:50:03 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-11-12 15:50:30 INFO  TestBase:351 - browser closed
+2018-11-12 15:51:04 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-11-12 15:51:26 INFO  TestBase:351 - browser closed
+2018-11-20 14:57:41 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-11-20 14:58:03 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-11-20 14:58:18 INFO  TestBase:351 - browser closed
+2018-11-20 14:59:41 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-11-20 15:06:04 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-11-20 15:12:22 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-11-20 15:14:12 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-11-20 16:42:10 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-11-21 10:38:31 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-11-21 10:39:02 INFO  TestBase:351 - browser closed
+2018-11-21 10:43:16 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-11-21 10:46:39 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-11-21 10:50:52 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-11-21 10:51:23 INFO  TestBase:351 - browser closed
+2018-11-21 10:53:00 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-11-21 10:55:38 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-11-21 10:56:39 INFO  TestBase:351 - browser closed
+2018-11-21 10:59:03 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-11-21 11:02:53 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-11-21 11:06:01 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-11-21 11:07:37 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-11-21 11:12:08 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-11-22 11:12:15 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-11-22 11:14:12 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-11-22 11:24:11 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-11-23 10:17:43 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-11-23 10:47:37 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-11-23 10:52:57 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-11-23 10:53:33 INFO  TestBase:351 - browser closed
+2018-11-23 10:53:59 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-11-23 10:55:31 INFO  TestBase:351 - browser closed
+2018-11-23 10:58:08 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-11-23 11:03:02 INFO  TestBase:351 - browser closed
+2018-11-23 11:27:15 INFO  TestBase:154 - navigating to :-https://stg.babydestination.com/home
+2018-11-23 11:36:12 INFO  TestBase:351 - browser closed
+2018-11-27 10:31:35 INFO  TestBase:154 - navigating to :-https://www.babydestination.com/home
+2018-11-27 10:36:08 INFO  TestBase:351 - browser closed
+2018-11-27 10:43:20 INFO  TestBase:154 - navigating to :-https://www.babydestination.com/home
+2018-11-27 10:56:11 INFO  TestBase:351 - browser closed
+2018-11-27 10:56:56 INFO  TestBase:154 - navigating to :-https://www.babydestination.com/home
+2018-11-27 10:57:17 INFO  TestBase:154 - navigating to :-https://www.babydestination.com/home
+2018-11-27 10:58:52 INFO  TestBase:351 - browser closed
+2018-11-29 17:36:16 INFO  TestBase:154 - navigating to :-https://www.babydestination.com/home
+2018-11-29 17:36:44 INFO  TestBase:351 - browser closed
+2018-11-29 17:39:51 INFO  TestBase:154 - navigating to :-https://www.babydestination.com/home
+2018-11-29 17:43:56 INFO  TestBase:351 - browser closed
+2018-12-05 10:18:28 INFO  TestBase:154 - navigating to :-https://www.babydestination.com/home
+2018-12-05 10:18:49 INFO  TestBase:154 - navigating to :-https://www.babydestination.com/home
+2018-12-05 10:19:13 INFO  TestBase:351 - browser closed
+2018-12-05 10:22:19 INFO  TestBase:351 - browser closed
+2018-12-05 10:25:30 INFO  TestBase:154 - navigating to :-https://www.babydestination.com/home
+2018-12-05 10:26:14 INFO  TestBase:154 - navigating to :-https://www.babydestination.com/home
+2018-12-05 10:27:56 INFO  TestBase:154 - navigating to :-https://www.babydestination.com/home
+2018-12-05 10:28:18 INFO  TestBase:351 - browser closed
+2018-12-05 10:29:33 INFO  TestBase:154 - navigating to :-https://www.babydestination.com/home
+2018-12-05 10:29:49 INFO  TestBase:351 - browser closed
+2018-12-18 12:38:34 INFO  TestBase:154 - navigating to :-https://www.babydestination.com/home
+2018-12-18 12:39:03 INFO  TestBase:154 - navigating to :-https://www.babydestination.com/home
+2018-12-18 12:40:58 INFO  TestBase:351 - browser closed
+2018-12-18 12:41:48 INFO  TestBase:154 - navigating to :-https://www.babydestination.com/home
+2018-12-18 12:48:01 INFO  TestBase:351 - browser closed
+2018-12-18 14:26:47 INFO  TestBase:154 - navigating to :-https://www.babydestination.com/home
+2018-12-18 14:28:02 INFO  TestBase:154 - navigating to :-https://www.babydestination.com/home
+2018-12-18 14:50:48 INFO  TestBase:154 - navigating to :-https://www.babydestination.com/home
+2018-12-18 14:51:33 INFO  TestBase:351 - browser closed
+2018-12-20 14:25:56 INFO  TestBase:154 - navigating to :-https://dev.babydestination.com/home
+2018-12-20 14:25:56 INFO  TestBase:154 - navigating to :-https://dev.babydestination.com/home
+2018-12-20 14:26:02 INFO  TestBase:154 - navigating to :-https://dev.babydestination.com/home
+2018-12-20 14:26:33 INFO  TestBase:154 - navigating to :-https://dev.babydestination.com/home
+2018-12-20 14:28:26 INFO  TestBase:154 - navigating to :-http://dev.babydestination.com/home
+2018-12-20 14:28:43 INFO  TestBase:154 - navigating to :-http://dev.babydestination.com/home
+2018-12-20 14:28:48 INFO  TestBase:154 - navigating to :-http://dev.babydestination.com/home
+2018-12-20 14:30:23 INFO  TestBase:351 - browser closed
+2019-01-15 20:25:18 INFO  TestBase:154 - navigating to :-https://www.babydestination.com/home
+2019-01-15 20:26:40 INFO  TestBase:154 - navigating to :-https://www.babydestination.com/home
+2019-01-15 20:26:44 INFO  TestBase:351 - browser closed
+2019-01-15 20:27:10 INFO  TestBase:154 - navigating to :-https://www.babydestination.com/home
+2019-01-15 20:29:36 INFO  TestBase:154 - navigating to :-https://www.babydestination.com/home
+2019-01-15 20:30:32 INFO  TestBase:154 - navigating to :-https://www.babydestination.com/home
+2019-01-15 20:36:14 INFO  TestBase:154 - navigating to :-https://www.babydestination.com/home
+2019-01-15 20:44:59 INFO  TestBase:351 - browser closed
+2019-01-15 20:47:19 INFO  TestBase:154 - navigating to :-https://www.babydestination.com/home
+2019-01-29 11:32:16 INFO  TestBase:154 - navigating to :-https://bangla.babydestination.com/home
+2019-01-29 11:34:44 INFO  TestBase:351 - browser closed
+2019-01-29 11:35:06 INFO  TestBase:154 - navigating to :-https://bangla.babydestination.com/home
+2019-01-29 11:39:34 INFO  TestBase:154 - navigating to :-https://bangla.babydestination.com/home
+2019-02-15 18:57:05 INFO  TestBase:154 - navigating to :-https://www.babydestination.com/home
+2019-02-15 18:58:35 INFO  TestBase:351 - browser closed
+2019-02-15 19:01:17 INFO  TestBase:154 - navigating to :-https://www.babydestination.com/home
+2019-02-15 19:02:22 INFO  TestBase:154 - navigating to :-https://www.babydestination.com/home
+2019-02-15 19:07:20 INFO  RetryExec:96 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://localhost:11353: The target server failed to respond
+2019-02-15 19:07:20 INFO  RetryExec:112 - Retrying request to {}->http://localhost:11353
+2019-03-11 16:39:21 INFO  TestBase:161 - navigating to :-https://www.babydestination.com/home
+2019-03-11 16:41:22 INFO  TestBase:161 - navigating to :-https://www.babydestination.com/home
+2019-03-11 17:30:34 INFO  TestBase:161 - navigating to :-https://www.babydestination.com/home
+2019-03-11 17:36:34 INFO  TestBase:358 - browser closed
+2019-03-11 17:56:05 INFO  TestBase:178 - navigating to :-https://www.babydestination.com
+2019-03-11 17:57:47 INFO  TestBase:178 - navigating to :-https://www.babydestination.com
+2019-03-11 17:58:13 INFO  RetryExec:96 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://localhost:27414: The target server failed to respond
+2019-03-11 17:58:13 INFO  RetryExec:112 - Retrying request to {}->http://localhost:27414
+2019-03-11 17:59:26 INFO  TestBase:179 - navigating to :-https://www.babydestination.com
+2019-03-11 17:59:45 INFO  RetryExec:96 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://localhost:18367: The target server failed to respond
+2019-03-11 17:59:45 INFO  RetryExec:112 - Retrying request to {}->http://localhost:18367
+2019-03-11 18:02:02 INFO  TestBase:179 - navigating to :-https://www.babydestination.com
+2019-03-11 18:03:11 INFO  TestBase:179 - navigating to :-https://www.babydestination.com
+2019-03-11 18:05:17 INFO  TestBase:179 - navigating to :-https://www.babydestination.com
+2019-03-11 18:05:38 INFO  RetryExec:96 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://localhost:28450: The target server failed to respond
+2019-03-11 18:05:38 INFO  RetryExec:112 - Retrying request to {}->http://localhost:28450
+2019-03-11 18:05:50 INFO  TestBase:179 - navigating to :-https://www.babydestination.com
+2019-03-11 18:06:18 INFO  TestBase:179 - navigating to :-https://www.babydestination.com
+2019-03-11 18:14:43 INFO  TestBase:181 - navigating to :-https://www.babydestination.com
+2019-03-11 18:14:56 INFO  RetryExec:96 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://localhost:30040: The target server failed to respond
+2019-03-11 18:14:56 INFO  RetryExec:112 - Retrying request to {}->http://localhost:30040
+2019-03-11 18:18:10 INFO  TestBase:179 - navigating to :-https://www.babydestination.com
+2019-03-11 18:18:18 INFO  RetryExec:96 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://localhost:29973: The target server failed to respond
+2019-03-11 18:18:18 INFO  RetryExec:112 - Retrying request to {}->http://localhost:29973
+2019-03-11 18:29:10 INFO  TestBase:179 - navigating to :-https://www.babydestination.com
+2019-03-11 18:29:24 INFO  RetryExec:96 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://localhost:14840: The target server failed to respond
+2019-03-11 18:29:24 INFO  RetryExec:112 - Retrying request to {}->http://localhost:14840
+2019-03-11 18:30:24 INFO  TestBase:182 - navigating to :-https://www.babydestination.com
+2019-03-11 18:31:21 INFO  TestBase:182 - navigating to :-https://www.babydestination.com
+2019-03-11 18:32:18 INFO  TestBase:182 - navigating to :-https://www.babydestination.com
+2019-03-11 18:32:39 INFO  RetryExec:96 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://localhost:6567: The target server failed to respond
+2019-03-11 18:32:39 INFO  RetryExec:112 - Retrying request to {}->http://localhost:6567
+2019-03-11 18:33:29 INFO  TestBase:182 - navigating to :-https://www.babydestination.com
+2019-03-11 18:33:47 INFO  RetryExec:96 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://localhost:22788: The target server failed to respond
+2019-03-11 18:33:47 INFO  RetryExec:112 - Retrying request to {}->http://localhost:22788
+2019-03-11 18:46:15 INFO  TestBase:180 - navigating to :-https://www.babydestination.com
+2019-03-11 18:46:31 INFO  RetryExec:96 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://localhost:30529: The target server failed to respond
+2019-03-11 18:46:31 INFO  RetryExec:112 - Retrying request to {}->http://localhost:30529
+2019-03-11 18:47:56 INFO  TestBase:181 - navigating to :-https://www.babydestination.com
+2019-03-11 18:48:25 INFO  RetryExec:96 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://localhost:6922: The target server failed to respond
+2019-03-11 18:48:25 INFO  RetryExec:112 - Retrying request to {}->http://localhost:6922
+2019-03-11 18:49:07 INFO  TestBase:182 - navigating to :-https://www.babydestination.com
+2019-03-11 18:50:00 INFO  RetryExec:96 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://localhost:25115: The target server failed to respond
+2019-03-11 18:50:00 INFO  RetryExec:112 - Retrying request to {}->http://localhost:25115
+2019-03-11 18:50:09 INFO  TestBase:182 - navigating to :-https://www.babydestination.com
+2019-03-11 18:50:50 INFO  RetryExec:96 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://localhost:25337: The target server failed to respond
+2019-03-11 18:50:50 INFO  RetryExec:112 - Retrying request to {}->http://localhost:25337
+2019-03-11 18:50:58 INFO  TestBase:181 - navigating to :-https://www.babydestination.com
+2019-03-12 10:43:00 INFO  TestBase:178 - navigating to :-https://tamil.babydestination.com
+2019-03-12 10:45:00 INFO  TestBase:178 - navigating to :-https://tamil.babydestination.com
+2019-03-12 10:46:31 INFO  TestBase:178 - navigating to :-https://tamil.babydestination.com
+2019-03-12 10:48:39 INFO  TestBase:178 - navigating to :-https://tamil.babydestination.com
+2019-03-12 10:49:23 INFO  TestBase:178 - navigating to :-https://tamil.babydestination.com
+2019-03-12 10:57:29 INFO  TestBase:178 - navigating to :-https://tamil.babydestination.com
+2019-03-12 10:58:03 INFO  TestBase:178 - navigating to :-https://hindi.babydestination.com
+2019-03-12 11:00:32 INFO  TestBase:178 - navigating to :-https://hindi.babydestination.com
+2019-03-12 11:08:43 INFO  TestBase:178 - navigating to :-https://hindi.babydestination.com
+2019-03-12 11:21:24 INFO  TestBase:178 - navigating to :-https://hindi.babydestination.com
+2019-03-12 12:08:05 INFO  TestBase:180 - navigating to :-https://hindi.babydestination.com
+2019-03-12 12:10:05 INFO  TestBase:179 - navigating to :-https://hindi.babydestination.com
+2019-03-12 12:13:20 INFO  TestBase:179 - navigating to :-https://hindi.babydestination.com
+2019-03-12 12:17:45 INFO  TestBase:184 - navigating to :-https://tamil.babydestination.com
+2019-03-12 12:19:36 INFO  TestBase:184 - navigating to :-https://tamil.babydestination.com
+2019-03-12 12:25:40 INFO  TestBase:184 - navigating to :-https://tamil.babydestination.com
+2019-03-12 12:27:41 INFO  TestBase:184 - navigating to :-https://www.babydestination.com
+2019-03-12 12:28:13 INFO  TestBase:184 - navigating to :-https://stg.babydestination.com
+2019-03-12 12:31:01 INFO  TestBase:184 - navigating to :-https://stg.babydestination.com
+2019-03-12 12:33:56 INFO  TestBase:184 - navigating to :-https://stg.babydestination.com
+2019-03-12 12:35:08 INFO  TestBase:381 - browser closed
+2019-03-12 12:35:34 INFO  TestBase:184 - navigating to :-https://stg.babydestination.com
+2019-03-12 12:57:02 INFO  TestBase:184 - navigating to :-https://stg.babydestination.com
+2019-03-12 12:58:38 INFO  TestBase:381 - browser closed
+2019-03-12 13:00:33 INFO  TestBase:184 - navigating to :-https://stg.babydestination.com
+2019-03-20 12:58:15 INFO  TestBase:184 - navigating to :-https://stg.babydestination.com
+2019-03-20 13:03:34 INFO  TestBase:184 - navigating to :-https://stg.babydestination.com
+2019-03-20 13:04:01 INFO  TestBase:184 - navigating to :-https://stg.babydestination.com
+2019-03-20 13:08:54 INFO  TestBase:184 - navigating to :-https://stg.babydestination.com
+2019-03-20 13:10:21 INFO  TestBase:184 - navigating to :-https://stg.babydestination.com

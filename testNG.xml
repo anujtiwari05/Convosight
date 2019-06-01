@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Default Suite">
+
+    <test name="HomePageTest">
+        <groups>
+            <run>
+                <include name = "Smoke"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.babydestination.automation.homePage.homePageTestCases"></class>
+            <class name="com.babydestination.automation.uiActions.HomePage"></class>
+            <class name="com.babydestination.automation.blogDetailPage.blogPageTestCases"></class>
+            <class name="com.babydestination.automation.uiActions.blogDetailPage"></class>
+
+        </classes>
+    </test>
+    <!--<test name="BlogDetailPage">-->
+
+        <!--<groups>-->
+            <!--<run>-->
+                <!--<include name = "Smoke"></include>-->
+            <!--</run>-->
+        <!--</groups>-->
+        <!--<classes>-->
+            <!--<class name="com.babydestination.automation.blogDetailPage.blogPageTestCases"></class>-->
+            <!--<class name="com.babydestination.automation.uiActions.blogDetailPage"></class>-->
+
+        <!--</classes>-->
+    <!--</test>-->
+    <!--<test name="LoginSignup">-->
+
+        <!--<groups>-->
+            <!--<run>-->
+                <!--<include name = "Smoke"></include>-->
+            <!--</run>-->
+        <!--</groups>-->
+        <!--<classes>-->
+            <!--<class name="com.babydestination.automation.loginSignup.loginPageTestCases"></class>-->
+            <!--<class name="com.babydestination.automation.uiActions.loginSignup"></class>-->
+
+        <!--</classes>-->
+    <!--</test>-->
+    <test name="ForumPage">
+
+        <groups>
+            <run>
+                <include name = "Smoke"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.babydestination.automation.forumPage.forumPageTestCases"></class>
+            <class name="com.babydestination.automation.uiActions.forumPage"></class>
+        </classes>
+    </test>
+    <listeners>
+        <!--<listener class-name="com.babydestination.automation.customListner.Listener"></listener>-->
+        <!--<listener class-name="com.babydestination.automation.customListner.RetryListener"></listener>-->
+        <!--<listener class-name="com.babydestination.automation.customListner.Retry"></listener>-->
+        <!--<listener class-name="com.babydestination.automation.customListner.WebEventListener"></listener>-->
+        <!--<listener class-name="com.babydestination.automation.testBase.TestBase"></listener>-->
+    </listeners>
+
+
+    <!--<test name="BlogDetailPageTest">-->
+        <!--<groups>-->
+            <!--<run>-->
+                <!--<include name="Regression"></include>-->
+            <!--</run>-->
+        <!--</groups>-->
+        <!--<classes>-->
+            <!--<class name="com.babydestination.automation.blogDetailPage.blogPageTestCases"></class>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!--<test name="LoginLogout page">-->
+        <!--<groups>-->
+            <!--<run>-->
+                <!--<include name="Regression"></include>-->
+            <!--</run>-->
+        <!--</groups>-->
+        <!--<classes>-->
+            <!--<class name="com.babydestination.automation.loginSignup.loginPageTestCases"></class>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!--<test name="Forums page">-->
+        <!--<groups>-->
+            <!--<run>-->
+                <!--<include name="Regression"></include>-->
+            <!--</run>-->
+        <!--</groups>-->
+        <!--<classes>-->
+            <!--<class name="com.babydestination.automation.forumPage.forumPageTestCases"></class>-->
+        <!--</classes>-->
+    <!--</test>-->
+
+
+</suite>
