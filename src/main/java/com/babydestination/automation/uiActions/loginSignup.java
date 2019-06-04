@@ -40,15 +40,15 @@ public class loginSignup extends TestBase {
     WebElement BDLogo;
     @FindBy(linkText = "Already have an account? Sign In")
     WebElement signinLink;
-    @FindBy(xpath = "/html/body/app-root/app-header/div/div/nav/div[1]/div[2]/div[2]/a")
+    @FindBy(xpath = "/html/body/app-root/app-header/div/div/nav/div[1]/div[2]/div[2]/a/img")
     WebElement logoutIcon;
-    @FindBy(xpath = "/html/body/app-root/app-header/div/div/nav/div[1]/div[2]/div[2]/div")
+    @FindBy(xpath = "/html/body/app-root/app-header/div/div/nav/div[1]/div[2]/div[2]/div/a")
     WebElement logoutButton;
     @FindBy(name = "email")
     WebElement loginEmail;
     @FindBy(name = "password")
     WebElement loginPass;
-    @FindBy(xpath = "/html/body/app-root/div[3]/app-login/div[1]/div[2]/div/button")
+    @FindBy(css = "body > app-root > div.login-modal > app-login > div.container-fluid.login-wrapper > div.account-container > div > div")
     WebElement FBloginButton;
     @FindBy(xpath = "//*[@id=\"email\"]")
     WebElement FBEmail;
@@ -71,27 +71,6 @@ waitForElement(driver,loginSignupButton,60);
         loginSignupButton.click();
     }
 
-    public void loginSignupLink() throws InterruptedException {
-        signupLink.click();
-        signinLink.click();
-        signupLink.click();
-        pause2();
-    }
-       //uncomment just 3 below lines
-//
-//        signupLink.click();
-//        expectingLifestage.click();
-//        kidLifestage.click();
-//         dobDay.click();
-//         driver.findElement(By.xpath("/html/body/div[2]/div[2]/div/div/mat-option[3]/span")).click();
-//         dobmonth.click();
-//         driver.findElement(By.xpath("/html/body/div[2]/div[3]/div/div/mat-option[4]/span")).click();
-//         dobYear.click();
-//         driver.findElement(By.xpath("/html/body/div[2]/div[4]/div/div/mat-option[5]/span")).click();pause();
-//         dobEmail.clear();
-//         dobEmail.sendKeys("submit1@gmaiil.com");
-//         dobPassword.sendKeys("123456");
-//         dobRegister.click();pause();
 
 
     public void loginSignupDuplicate() throws InterruptedException {
@@ -109,7 +88,7 @@ waitForElement(driver,loginSignupButton,60);
 //        loginPass.sendKeys("123456");
 //        pause1();
 //        signInButton.click();
-//        pause();
+        pause();
         FBloginButton.click();
         pause2();
         String parent_window=driver.getWindowHandle();
@@ -123,6 +102,7 @@ waitForElement(driver,loginSignupButton,60);
                 pause1();
                 driver.switchTo().window(child_window);
                 pause1();
+                FBEmail.clear();
                 FBEmail.sendKeys("anujtiwari05@gmail.com");
                 FBPass.sendKeys("anuj@passwordd");
                 FBSigninButton.click();

@@ -24,12 +24,7 @@ public class forumPageTestCases extends TestBase {
 
     }
 
-    @Test(groups = {"Regression","Smoke"})
-    public void TC_36_1_View_Question() throws InterruptedException {
 
-        forumPage.viewQuestion();
-
-    }
 
     @Test(groups = {"Regression","smoke"},enabled = true)
     public void TC_37_Forum_Post_Question() throws InterruptedException {
@@ -44,7 +39,39 @@ public class forumPageTestCases extends TestBase {
         forumPage.postAnswer();
 
     }
+    @Test(groups = {"Regression","Smoke"})
+    public void TC_36_1_View_Question() throws InterruptedException {
 
+        forumPage.viewQuestion();
+
+    }
+    @Test(groups = {"Regression","Smoke"})
+    public void TC_39_Red_Ans_Button() throws InterruptedException {
+
+        forumPage.redAnsButton();
+
+    }
+
+    @Test(groups = {"Regression","Smoke"})
+    public void TC_40_yellow_LS_Tag() throws InterruptedException {
+
+        forumPage.yellowLSTagClick();
+
+    }
+    @Test(groups = {"Regression","Smoke"})
+    public void TC_41_Cancel_Button_Text() throws InterruptedException {
+
+        forumPage.cancelButtonTest();
+        pause3();
+
+    }
+    @Test(groups = {"Regression","Smoke"})
+    public void TC_42_Infinite_scroll_forumHomepage() throws InterruptedException {
+
+        forumPage.infiniteScroll();
+        pause3();
+
+    }
 
 }
 

@@ -535,3 +535,45 @@
 2019-06-01 12:58:15 INFO  TestBase:184 - navigating to :-https://stg.babydestination.com
 2019-06-01 13:01:03 INFO  TestBase:381 - browser closed
 2019-06-01 14:17:42 INFO  TestBase:184 - navigating to :-https://stg.babydestination.com
+2019-06-01 14:44:33 INFO  TestBase:184 - navigating to :-https://stg.babydestination.com
+2019-06-01 14:49:10 INFO  TestBase:381 - browser closed
+2019-06-01 14:53:51 INFO  TestBase:184 - navigating to :-https://stg.babydestination.com
+2019-06-01 14:57:18 INFO  TestBase:184 - navigating to :-https://stg.babydestination.com
+2019-06-01 15:02:50 INFO  TestBase:184 - navigating to :-https://stg.babydestination.com
+2019-06-01 15:06:11 INFO  TestBase:184 - navigating to :-https://stg.babydestination.com
+2019-06-01 15:08:41 INFO  TestBase:184 - navigating to :-https://stg.babydestination.com
+2019-06-01 15:09:09 INFO  TestBase:184 - navigating to :-https://stg.babydestination.com
+2019-06-01 15:12:16 INFO  TestBase:184 - navigating to :-https://stg.babydestination.com
+2019-06-01 15:16:25 INFO  TestBase:184 - navigating to :-https://stg.babydestination.com
+2019-06-01 15:22:11 INFO  TestBase:184 - navigating to :-https://stg.babydestination.com
+2019-06-01 15:22:55 INFO  TestBase:381 - browser closed
+2019-06-01 15:25:11 INFO  TestBase:184 - navigating to :-https://stg.babydestination.com
+2019-06-01 15:27:47 INFO  TestBase:184 - navigating to :-https://stg.babydestination.com
+2019-06-01 15:30:07 INFO  TestBase:381 - browser closed
+2019-06-01 15:41:12 INFO  TestBase:184 - navigating to :-https://stg.babydestination.com
+2019-06-01 15:42:32 INFO  TestBase:381 - browser closed
+2019-06-01 15:44:10 INFO  TestBase:184 - navigating to :-https://stg.babydestination.com
+2019-06-01 15:45:17 INFO  TestBase:381 - browser closed
+2019-06-01 15:47:44 INFO  TestBase:184 - navigating to :-https://stg.babydestination.com
+2019-06-01 15:51:40 INFO  TestBase:184 - navigating to :-https://stg.babydestination.com
+2019-06-01 15:53:34 INFO  TestBase:381 - browser closed
+2019-06-01 16:32:26 INFO  TestBase:184 - navigating to :-https://stg.babydestination.com
+2019-06-01 16:36:22 INFO  TestBase:184 - navigating to :-https://stg.babydestination.com
+2019-06-01 16:40:18 INFO  TestBase:184 - navigating to :-https://stg.babydestination.com
+2019-06-01 16:43:09 INFO  TestBase:184 - navigating to :-https://stg.babydestination.com
+2019-06-01 16:44:39 INFO  RetryExec:96 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://localhost:16791: The target server failed to respond
+2019-06-01 16:44:39 INFO  RetryExec:112 - Retrying request to {}->http://localhost:16791
+2019-06-01 17:39:32 INFO  TestBase:184 - navigating to :-https://stg.babydestination.com
+2019-06-01 17:46:01 INFO  TestBase:184 - navigating to :-https://stg.babydestination.com
+2019-06-01 17:47:21 INFO  TestBase:184 - navigating to :-https://stg.babydestination.com
+2019-06-01 17:58:59 INFO  TestBase:184 - navigating to :-https://stg.babydestination.com
+2019-06-01 18:05:28 INFO  TestBase:184 - navigating to :-https://stg.babydestination.com
+2019-06-01 18:05:48 INFO  TestBase:184 - navigating to :-https://stg.babydestination.com
+2019-06-01 18:07:13 INFO  TestBase:184 - navigating to :-https://stg.babydestination.com
+2019-06-01 18:11:33 INFO  TestBase:184 - navigating to :-https://stg.babydestination.com
+2019-06-01 18:14:59 INFO  TestBase:184 - navigating to :-https://stg.babydestination.com
+2019-06-01 18:25:20 INFO  TestBase:184 - navigating to :-https://stg.babydestination.com
+2019-06-01 18:27:37 INFO  TestBase:184 - navigating to :-https://stg.babydestination.com
+2019-06-01 18:31:47 INFO  TestBase:381 - browser closed
+2019-06-01 18:37:25 INFO  TestBase:184 - navigating to :-https://stg.babydestination.com
+2019-06-01 18:39:42 INFO  TestBase:184 - navigating to :-https://stg.babydestination.com

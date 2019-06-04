@@ -7,14 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e09a73bb-4998-455e-9aea-1b005688d864" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/automation.out" beforeDir="false" afterPath="$PROJECT_DIR$/automation.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/babydestination/automation/uiActions/blogDetailPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/babydestination/automation/uiActions/blogDetailPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/babydestination/automation/uiActions/forumPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/babydestination/automation/uiActions/forumPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/babydestination/automation/blogDetailPage/blogPageTestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/babydestination/automation/blogDetailPage/blogPageTestCases.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/babydestination/automation/uiActions/blogDetailPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/babydestination/automation/uiActions/blogDetailPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/babydestination/automation/uiActions/forumPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/babydestination/automation/uiActions/forumPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/babydestination/automation/blogDetailPage/blogPageTestCases.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/babydestination/automation/blogDetailPage/blogPageTestCases.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/babydestination/automation/uiActions/loginSignup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/babydestination/automation/uiActions/loginSignup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/babydestination/automation/forumPage/forumPageTestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/babydestination/automation/forumPage/forumPageTestCases.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,8 +36,7 @@
     <option name="myElementSize" value="179" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="ExportTestResults" outputFolder="$PROJECT_DIR$" userTempatePath="" />
   <component name="FileEditorManager">
@@ -49,26 +44,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/babydestination/automation/forumPage/forumPageTestCases.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/babydestination/automation/uiActions/forumPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="87" column="23" lean-forward="true" selection-start-line="87" selection-start-column="23" selection-end-line="87" selection-end-column="23" />
+            <state relative-caret-position="100">
+              <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/babydestination/automation/uiActions/loginSignup.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/babydestination/automation/uiActions/forumPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-210">
-              <caret line="105" column="16" selection-start-line="105" selection-start-column="16" selection-end-line="105" selection-end-column="16" />
+            <state relative-caret-position="165">
+              <caret line="81" column="85" selection-start-line="81" selection-start-column="85" selection-end-line="81" selection-end-column="85" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/babydestination/automation/uiActions/blogDetailPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-846">
+              <caret line="107" column="35" lean-forward="true" selection-start-line="107" selection-start-column="8" selection-end-line="107" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/babydestination/automation/loginSignup/loginPageTestCases.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="329">
+              <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -111,7 +118,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/babydestination/automation/report/test05_10_2018_12_39_06.html" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/testNG.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/babydestination/automation/forumPage/forumPageTestCases.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/babydestination/automation/loginSignup/loginPageTestCases.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/babydestination/automation/config/eng.properties" />
         <option value="$PROJECT_DIR$/src/test/java/com/babydestination/automation/homePage/homePageTestCases.java" />
@@ -120,11 +126,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/babydestination/automation/config/bangla.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/babydestination/automation/testBase/TestBase.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/babydestination/automation/config/config.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/babydestination/automation/uiActions/loginSignup.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/babydestination/automation/uiActions/HomePage.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/test/java/com/babydestination/automation/blogDetailPage/blogPageTestCases.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/babydestination/automation/uiActions/blogDetailPage.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/com/babydestination/automation/uiActions/loginSignup.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/babydestination/automation/forumPage/forumPageTestCases.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/babydestination/automation/uiActions/forumPage.java" />
       </list>
     </option>
@@ -230,7 +237,25 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="automation" type="462c0819:PsiDirectoryNode" />
+              <item name="blogDetailPage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BDSmokeTestAutomated" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BDSmokeTestAutomated" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="automation" type="462c0819:PsiDirectoryNode" />
               <item name="forumPage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BDSmokeTestAutomated" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BDSmokeTestAutomated" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="automation" type="462c0819:PsiDirectoryNode" />
+              <item name="loginSignup" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -355,9 +380,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.forumPageTestCases" />
+        <item itemvalue="TestNG.loginPageTestCases" />
         <item itemvalue="TestNG.blogPageTestCases" />
         <item itemvalue="TestNG.homePageTestCases" />
-        <item itemvalue="TestNG.loginPageTestCases" />
         <item itemvalue="JUnit.All in BDSmokeTestAutomated" />
       </list>
     </recent_temporary>
@@ -376,35 +401,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="homePageTestCases - 2019.03.20 at 13h 08m 12s.xml">
-      <configuration name="homePageTestCases" configurationId="TestNG" />
+    <history-entry file="forumPageTestCases - 2019.06.01 at 18h 01m 28s.xml">
+      <configuration name="forumPageTestCases" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="homePageTestCases - 2019.03.20 at 13h 10m 06s.xml">
-      <configuration name="homePageTestCases" configurationId="TestNG" />
+    <history-entry file="forumPageTestCases - 2019.06.01 at 18h 05m 30s.xml">
+      <configuration name="forumPageTestCases" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="homePageTestCases - 2019.03.20 at 13h 12m 39s.xml">
-      <configuration name="homePageTestCases" configurationId="TestNG" />
+    <history-entry file="forumPageTestCases - 2019.06.01 at 18h 07m 02s.xml">
+      <configuration name="forumPageTestCases" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="blogPageTestCases - 2019.06.01 at 11h 07m 56s.xml">
-      <configuration name="blogPageTestCases" configurationId="TestNG" />
+    <history-entry file="forumPageTestCases - 2019.06.01 at 18h 11m 17s.xml">
+      <configuration name="forumPageTestCases" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="blogPageTestCases - 2019.06.01 at 11h 11m 01s.xml">
-      <configuration name="blogPageTestCases" configurationId="TestNG" />
+    <history-entry file="forumPageTestCases - 2019.06.01 at 18h 14m 49s.xml">
+      <configuration name="forumPageTestCases" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="blogPageTestCases - 2019.06.01 at 11h 26m 00s.xml">
-      <configuration name="blogPageTestCases" configurationId="TestNG" />
+    <history-entry file="forumPageTestCases - 2019.06.01 at 18h 19m 25s.xml">
+      <configuration name="forumPageTestCases" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="blogPageTestCases - 2019.06.01 at 12h 32m 53s.xml">
-      <configuration name="blogPageTestCases" configurationId="TestNG" />
+    <history-entry file="forumPageTestCases - 2019.06.01 at 18h 27m 28s.xml">
+      <configuration name="forumPageTestCases" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="blogPageTestCases - 2019.06.01 at 12h 37m 27s.xml">
-      <configuration name="blogPageTestCases" configurationId="TestNG" />
+    <history-entry file="forumPageTestCases - 2019.06.01 at 18h 31m 48s.xml">
+      <configuration name="forumPageTestCases" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="blogPageTestCases - 2019.06.01 at 12h 56m 21s.xml">
-      <configuration name="blogPageTestCases" configurationId="TestNG" />
+    <history-entry file="forumPageTestCases - 2019.06.01 at 18h 38m 54s.xml">
+      <configuration name="forumPageTestCases" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="blogPageTestCases - 2019.06.01 at 13h 01m 03s.xml">
-      <configuration name="blogPageTestCases" configurationId="TestNG" />
+    <history-entry file="forumPageTestCases - 2019.06.01 at 18h 41m 11s.xml">
+      <configuration name="forumPageTestCases" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -418,9 +443,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4976852" visible="true" weight="0.20757575" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4976852" visible="true" weight="0.20757575" />
       <window_info id="Structure" order="1" sideWeight="0.5023148" side_tool="true" weight="0.22727273" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -429,13 +453,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4939394" weight="0.39739415" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49318182" weight="0.3762215" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924242" weight="0.49512988" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32954547" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49621212" weight="0.5179153" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5060606" side_tool="true" weight="0.20487805" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49621212" weight="0.084690556" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5068182" side_tool="true" weight="0.37947884" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49924242" weight="0.30456027" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -567,16 +591,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/babydestination/automation/report/test27_11_2018_10_31_30.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/babydestination/automation/loginSignup/loginPageTestCases.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/babydestination/automation/report/test23_11_2018_10_58_06.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -694,15 +708,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+        <state relative-caret-position="45">
+          <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/babydestination/automation/uiActions/blogDetailPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/babydestination/automation/uiActions/loginSignup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="221" column="10" selection-start-line="221" selection-start-column="10" selection-end-line="221" selection-end-column="10" />
+        <state relative-caret-position="975">
+          <caret line="106" column="34" selection-start-line="106" selection-start-column="34" selection-end-line="106" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -711,32 +725,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/babydestination/automation/blogDetailPage/blogPageTestCases.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1515">
+        <state relative-caret-position="369">
           <caret line="106" column="15" selection-start-line="106" selection-start-column="15" selection-end-line="106" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/babydestination/automation/loginSignup/loginPageTestCases.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/babydestination/automation/uiActions/blogDetailPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-846">
+          <caret line="107" column="35" lean-forward="true" selection-start-line="107" selection-start-column="8" selection-end-line="107" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/babydestination/automation/forumPage/forumPageTestCases.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+        <state relative-caret-position="100">
+          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/babydestination/automation/uiActions/forumPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="87" column="23" lean-forward="true" selection-start-line="87" selection-start-column="23" selection-end-line="87" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/babydestination/automation/uiActions/loginSignup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-210">
-          <caret line="105" column="16" selection-start-line="105" selection-start-column="16" selection-end-line="105" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="165">
+          <caret line="81" column="85" selection-start-line="81" selection-start-column="85" selection-end-line="81" selection-end-column="85" />
         </state>
       </provider>
     </entry>

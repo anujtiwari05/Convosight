@@ -98,6 +98,18 @@ public class HomePage extends TestBase {
 
 //	public void homePageBlog() throws InterruptedException,IOException {
 
+    public void TC1_All_Cat_Present() throws InterruptedException,IOException {
+        engPropFile();
+        pause1();
+        scroll("scroll(0,750)");
+        waitForElement(driver,blog1,60);
+        blog1.click();
+        Assert.assertEquals(continueReading.getText(),OR.getProperty("Continue_Reading"));
+        pause2();
+        back();
+
+    }
+
         public void TC1() throws InterruptedException,IOException {
         engPropFile();
         pause1();
