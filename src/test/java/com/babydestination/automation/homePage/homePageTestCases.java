@@ -16,143 +16,93 @@ public class homePageTestCases extends TestBase {
         init();
     }
 
-    @Test(groups = {"Regression","Smoke"})
-    public void TC_001_Text_Blog() throws InterruptedException,IOException {
+    @Test(groups = {"Regression","Smoke"},enabled = false)
+    public void TC1_TopHeader_Present() throws InterruptedException,IOException {
         homePage = new HomePage(driver);
-        homePage.TC1();
-    }
-    @Test(groups = {"Regression"})
-    public void TC_002_Partnert_Us() throws InterruptedException,IOException {
-
-        homePage.TC2();
-    }
-    @Test(groups = {"Regression"})
-    public void TC_003_Homepage_Navigate_from_PartnerUs() throws InterruptedException,IOException {
-
-        homePage.TC3();
-    }
-    @Test(groups = {"Regression","Smoke"})
-    public void TC_004_Video_Blog() throws InterruptedException,IOException {
-
-        homePage.TC4();
-    }
-    @Test(groups = {"Regression","Smoke"})
-    public void TC_005_Homepage_Navigate_from_Video() throws InterruptedException,IOException {
-
-        homePage.TC4_1();
-    }
-    @Test(groups = {"Regression","Smoke"},enabled = false)
-    public void TC_006_Expert_Blog() throws InterruptedException,IOException {
-
-        homePage.TC5();
-    }
-    @Test(groups = {"Regression","Smoke"},enabled = false)
-    public void TC_007_Expert_Popup_Submit_Blog_Clicked() throws InterruptedException,IOException {
-
-        homePage.TC6();
-    }
-    @Test(groups = {"Regression","Smoke"},enabled=false)
-    public void TC_008_Homepage_Navigate_from_Expert() throws InterruptedException,IOException {
-
-        homePage.TC7();
-    }
-    @Test(groups = {"Regression","Smoke"})
-    public void TC_009_Card_Blog() throws
-            InterruptedException,IOException {
-
-        homePage.TC8();
-    }
-    @Test(groups = {"Regression","Smoke"})
-    public void TC_010_Homepage_Navigate_from_Card() throws InterruptedException,IOException {
-
-        homePage.TC9();
-    }
-    @Test(groups = {"Regression","Smoke"})
-    public void TC_011_JoinNow_Button_Homapage() throws InterruptedException,IOException {
-
-        homePage.TC10();
-    }
-    @Test(groups = {"Regression","Smoke"})
-    public void TC_012_ExploreNow_Button_Homepage() throws InterruptedException,IOException {
-
-        homePage.TC11();
-    }
-    @Test(groups = {"Regression","Smoke"})
-    public void TC_013_AskNow_Button_Homepage() throws InterruptedException,IOException {
-
-        homePage.TC12();
-    }
-    @Test(groups = {"Regression","Smoke"})
-    public void TC_014_ConnectNow_Button_Homepage() throws InterruptedException,IOException {
-
-        homePage.TC13();
+        homePage.TC1_TopHeader_Present();
     }
     @Test(groups = {"Regression"},enabled = false)
-    public void TC_015_SignupNow_Button_Homepage() throws InterruptedException,IOException {
+    public void TC2_menuHeader_Present() throws InterruptedException,IOException {
 
-        homePage.TC14();
+        homePage.TC2_menuHeader_Present();
     }
-    @Test(groups = {"Regression"})
-    public void TC_016_SeeMore_Button1_Answer_Section() throws InterruptedException,IOException {
+    @Test(groups = {"Regression"},enabled = false)
+    public void TC3_footer_Present() throws InterruptedException,IOException {
 
-        homePage.TC15();
+        homePage.TC3_footer_Present();
     }
-    @Test(groups = {"Regression"})
-    public void TC_017_SeeMore_Button2_Answer_Section() throws InterruptedException,IOException {
+    @Test(groups = {"Regression","Smoke"},enabled = false)
+    public void TC4_widgets_ask_WA_Present() throws InterruptedException,IOException {
 
-        homePage.TC16();
+        homePage.TC4_widgets_ask_WA_Present();
     }
-    @Test(groups = {"Regression"})
-    public void TC_018_ClickToAnswer_Button_Answer_Section_Homepage() throws InterruptedException,IOException {
+    @Test(groups = {"Regression","Smoke"},enabled = false)
+    public void TC5_all_categories_postcard_present()throws InterruptedException,IOException {
 
-        homePage.TC17();
+        homePage.TC5_all_categories_postcard_present();
     }
-    @Test(groups = {"Regression","Smoke"})
-    public void TC_019_Facebook_Footer_Link() throws InterruptedException,IOException {
+    @Test(groups = {"Regression","Smoke"},enabled = false)
+    public void TC6_click_blog() throws InterruptedException,IOException {
 
-        homePage.TC18();
+        homePage.TC6_click_blog();
     }
-    @Test(groups = {"Regression","Smoke"})
-    public void TC_020_Instagram_Footer_Link() throws InterruptedException,IOException {
+    @Test(groups = {"Regression","Smoke"},enabled = false)
+    public void TC7_click_seeAll() throws InterruptedException,IOException {
 
-        homePage.TC19();
+        homePage.TC7_click_seeAll();
     }
-    @Test(groups = {"Regression","Smoke"})
-    public void TC_021_Twitter_Footer_Link() throws InterruptedException,IOException {
+    @Test(groups = {"Regression","Smoke"},enabled = false)
+    public void TC8_expert_popup_submit() throws InterruptedException,IOException {
 
-        homePage.TC20();
+        homePage.TC8_expert_popup_submit();
     }
-    @Test(groups = {"Regression","Smoke"})
-    public void TC_022_Youtube_Footer_Link() throws InterruptedException,IOException {
+    @Test(groups = {"Regression","Smoke"},enabled = false)
+    public void TC9_whatsapp_directory_page() throws InterruptedException,IOException {
 
-        homePage.TC21();
+        homePage.TC9_whatsapp_directory_page();
     }
-    @Test(groups = {"Regression"})
-    public void TC_023_BabyDestinationNews_Random_Link() throws InterruptedException,IOException {
+    @Test(groups = {"Regression","Smoke"},enabled = false)
+    public void TC10_video_blog_open() throws InterruptedException,IOException {
 
-        homePage.TC22();
+        homePage.TC10_video_blog_open();
     }
-    @Test(groups = {"Regression","Smoke"})
-    public void TC_024_Search_English_Site() throws InterruptedException,IOException {
+    @Test(groups = {"Regression","Smoke"},enabled = false)
+    public void TC11_card_blog_open() throws InterruptedException,IOException {
 
-        homePage.TC23();
+        homePage.TC11_card_blog_open();
     }
-    @Test(groups = {"Regression","Smoke"})
-    public void TC_025_VernacularDropdown_Hindi_Site() throws InterruptedException,IOException {
+    @Test(groups = {"Regression","Smoke"},enabled = false)
+    public void TC12_all_sections_present() throws InterruptedException,IOException {
 
-        homePage.TC24();
+        homePage.TC12_all_sections_present();
     }
-    @Test(groups = {"Regression","Smoke"})
-    public void TC_026_VernacularDropdown_Tamil_Site() throws InterruptedException,IOException {
+    @Test(groups = {"Regression","Smoke"},enabled = false)
+    public void TC13_partner_us_page() throws InterruptedException,IOException {
 
-        homePage.TC25();
-
+        homePage.TC13_partner_us_page();
     }
-    @Test(groups = {"Regression","Smoke"})
-    public void TC_027_VernacularDropdown_English_Site() throws InterruptedException,IOException {
+    @Test(groups = {"Regression","Smoke"},enabled = false)
+    public void TC14_language_dropdown() throws InterruptedException,IOException {
 
-        homePage.TC26();
+        homePage.TC14_language_dropdown();
     }
+    @Test(groups = {"Regression"},enabled = false)
+    public void TC15_Footer_social_links_redirection() throws InterruptedException,IOException {
 
+
+        homePage.TC15_Footer_social_links_redirection();
+    }
+    @Test(groups = {"Regression"},enabled = false)
+    public void TC16_Footer_pages_links_redirection() throws InterruptedException,IOException {
+
+
+        homePage.TC16_Footer_pages_links_redirection();
+    }
+    @Test(groups = {"Regression"},enabled = false)
+    public void TC17_search_page() throws InterruptedException,IOException {
+
+
+        homePage.TC17_search_page();
+    }
 
 }
