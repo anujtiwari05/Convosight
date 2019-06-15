@@ -180,9 +180,11 @@ public class TestBase {
 		}
 	}
 
-	public void getUrl(String url){
+	public void getUrl(String url) throws InterruptedException{
 		log.info("navigating to :-" + url);
+		pause2();
 		driver.manage().window().maximize();
+		pause2();
 		driver.get(url);
 		driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
 
@@ -395,7 +397,7 @@ public class TestBase {
 
 	//@Parameters("browser")
 	//@BeforeTest
-	public void launchapp(String browser) throws IOException {
+	public void launchapp(String browser) throws IOException,InterruptedException {
 
 		if (System.getProperty("os.name").contains("Mac")) {
 			if (browser.equals("chrome")) {

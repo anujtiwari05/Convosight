@@ -8,57 +8,55 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import com.babydestination.automation.testBase.TestBase;
+import org.testng.asserts.SoftAssert;
+import org.testng.annotations.Parameters;
 
 import java.util.Iterator;
 import java.util.Set;
 
 public class loginSignup extends TestBase {
     public static final Logger log = Logger.getLogger(loginSignup.class.getName());
+    SoftAssert softAssert=new SoftAssert();
 
-    @FindBy(xpath = "/html/body/app-root/app-header/div/div/nav/div[1]/div[2]/a[2]")
-
-    WebElement loginSignupButton;
-    @FindBy(linkText = "Do not have an account? Sign Up")
-    WebElement signupLink;
-    @FindBy(xpath = "//*[@id=\"mat-radio-6\"]/label/div[1]/div[2]")
-    WebElement expectingLifestage;
-    @FindBy(xpath = "//*[@id=\"mat-radio-5\"]/label/div[1]/div[2]")
-    WebElement kidLifestage;
-    @FindBy(xpath = "/html/body/app-root/div[3]/app-user-registration/div/div[2]/div/app-personal-info/div/div[2]/form/div[2]/mat-form-field[1]/div/div[1]/div/mat-select/div/div[1]")
-    WebElement dobDay;
-    @FindBy(xpath = "/html/body/app-root/div[3]/app-user-registration/div/div[2]/div/app-personal-info/div/div[2]/form/div[2]/mat-form-field[2]/div/div[1]/div/mat-select/div/div[1]")
-    WebElement dobmonth;
-    @FindBy(xpath = "/html/body/app-root/div[3]/app-user-registration/div/div[2]/div/app-personal-info/div/div[2]/form/div[2]/mat-form-field[3]/div/div[1]/div/mat-select/div/div[1]")
-    WebElement dobYear;
-    @FindBy(id = "mat-input-6")
-    WebElement dobEmail;
-    @FindBy(id = "mat-input-7")
-    WebElement dobPassword;
-    @FindBy(xpath = "/html/body/app-root/div[3]/app-user-registration/div/div[2]/div/app-personal-info/div/div[2]/form/div[6]/button/span")
-    WebElement dobRegister;
-    @FindBy(xpath = "/html/body/app-root/app-header/div/nav/div[1]/a/img")
-    WebElement BDLogo;
-    @FindBy(linkText = "Already have an account? Sign In")
-    WebElement signinLink;
-    @FindBy(xpath = "/html/body/app-root/app-header/div/div/nav/div[1]/div[2]/div[2]/a/img")
-    WebElement logoutIcon;
-    @FindBy(xpath = "/html/body/app-root/app-header/div/div/nav/div[1]/div[2]/div[2]/div/a")
-    WebElement logoutButton;
-    @FindBy(name = "email")
-    WebElement loginEmail;
-    @FindBy(name = "password")
-    WebElement loginPass;
-    @FindBy(css = "body > app-root > div.login-modal > app-login > div.container-fluid.login-wrapper > div.account-container > div > div")
-    WebElement FBloginButton;
-    @FindBy(xpath = "//*[@id=\"email\"]")
-    WebElement FBEmail;
-    @FindBy(xpath = "//*[@id=\"pass\"]")
-    WebElement FBPass;
+    @FindBy(xpath = "/html/body/app-root/app-group-admin-landing-page/div/div[1]/img")
+    WebElement homePageBannerImg;
+    @FindBy(xpath = "//*[@id=\"c1\"]/a/img")
+    WebElement fbConnectTop;
+    @FindBy(xpath = "/html/body/app-root/app-group-admin-landing-page/div/div[1]/h4[1]/a/img")
+    WebElement fbConnectMiddle;
+    @FindBy(xpath = "/html/body/div[1]/div/div[1]/div[2]/div[2]")
+    WebElement continueButtonPopup;
+    @FindBy(css = "div.modal-content:nth-child(2) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > button")
+    WebElement continueFBButton;
+    @FindBy(xpath = "//*[@id=\"u_0_12\"]/div[1]/div/div/div/div[1]/div[1]/div[2]/div[1]")
+    WebElement profileAccessPopup;
     @FindBy(xpath = "//*[@id=\"u_0_0\"]")
-    WebElement FBSigninButton;
-    @FindBy(xpath = "/html/body/app-root/div[3]/app-login/div/div[2]/div/app-personal-info/div/div[2]/form/div[3]/button")
+    WebElement FbProfileAccessCancel;
+    @FindBy(xpath = "//*[@id=\"u_0_10\"]/div[2]/div[1]/div[1]/button")
+    WebElement continueAsUserButton;
+    @FindBy(xpath = "//*[@id=\"u_0_z\"]/div/div/div/div/div[1]/div[1]/div[2]")
+    WebElement groupAccessPopup;
+    @FindBy(xpath = "//*[@id=\"platformDialogForm\"]/div[2]/table/tbody/tr/td[1]/table/tbody/tr/td[2]/button[1]")
+    WebElement groupAccessNotNow;
+    @FindBy(xpath = "//*[@id=\"c1\"]/ul[2]/li/a")
+    WebElement logOutButton;
 
-    WebElement signInButton;
+    @FindBy(xpath = "//*[@id=\"platformDialogForm\"]/div[2]/table/tbody/tr/td[1]/table/tbody/tr/td[2]/button[2]")
+    WebElement groupAccessOK;
+    @FindBy(xpath = "//*[@id=\"one\"]/div")
+    WebElement myGroupsDashboard;
+    @FindBy(xpath ="//*[@id=\"one\"]/table/tbody/tr[2]/td[2]")
+    WebElement groupNameDashboardPage;
+
+    @FindBy(xpath = "//*[@id=\"header_block\"]/span")
+    WebElement loginFacebookPage;
+    @FindBy(xpath = "//*[@id=\"email\"]")
+    WebElement FbEmail;
+    @FindBy(xpath = "//*[@id=\"pass\"]")
+    WebElement FbPass;
+    @FindBy(xpath = "//*[@id=\"loginbutton\"]")
+    WebElement FBloginButton;
+
 
 
     public loginSignup(WebDriver driver) {
@@ -66,77 +64,119 @@ public class loginSignup extends TestBase {
         PageFactory.initElements(driver, this);
     }
 
-    public void loginSignupHeader() throws InterruptedException {
-waitForElement(driver,loginSignupButton,60);
-        loginSignupButton.click();
-    }
-
-
-
-    public void loginSignupDuplicate() throws InterruptedException {
-        waitForElement(driver,loginEmail,60);
-        loginEmail.sendKeys("b@bd.com");
-        loginPass.sendKeys("    ");
+    public void fbConnectPresent() throws InterruptedException {
         pause1();
-        signInButton.click();
-        pause();
+        Boolean isFbConnect= fbConnectTop.isDisplayed();
+        softAssert.assertEquals(isFbConnect.booleanValue(),true);
+        Boolean isFbConnect2= fbConnectMiddle.isDisplayed();
+        softAssert.assertEquals(isFbConnect2.booleanValue(),true);
+        Boolean isBannerHomePage= homePageBannerImg.isDisplayed();
+        softAssert.assertEquals(isBannerHomePage.booleanValue(),true);
+        softAssert.assertAll();
+
+    }
+    public void fbConnectClick() throws InterruptedException {
+        waitForElement(driver,fbConnectTop,60);
+        pause1();fbConnectTop.click();
+        Boolean isContinueFBButton= continueFBButton.isDisplayed();
+        softAssert.assertEquals(isContinueFBButton.booleanValue(),true);
+        softAssert.assertAll();
+
+    }
+    public void continueFBButtonClicked() throws InterruptedException {
+        waitForElement(driver,continueFBButton,60);
+        pause1();
+        continueFBButton.click();
+        pause1();
+        softAssert.assertAll();
+
     }
 
-    public void login() throws InterruptedException {
-        waitForElement(driver,FBloginButton,60);
-//        loginEmail.sendKeys("submit1234@gmail.com");
-//        loginPass.sendKeys("123456");
-//        pause1();
-//        signInButton.click();
-        pause();
-        FBloginButton.click();
-        pause2();
-        String parent_window=driver.getWindowHandle();
-        Set<String> s1=driver.getWindowHandles();
-        Iterator<String> i1=s1.iterator();
-        while(i1.hasNext())
-        {
-            String child_window=i1.next();
-            if(!parent_window.equalsIgnoreCase(child_window))
+    public void afterContinueClick() throws InterruptedException {
+
+        if(loginFacebookPage.isDisplayed()){
+            pause1();
+            FbEmail.sendKeys("anujtiwari05@gmail.com");
+            FbPass.sendKeys("anuj@passwordd");
+            pause1();
+            FBloginButton.click();
+            pause();
+            pause2();
+            if(myGroupsDashboard.isDisplayed()){
+
+                Boolean isMyGroupDashboard = myGroupsDashboard.isDisplayed();
+                softAssert.assertEquals(isMyGroupDashboard.booleanValue(), true);
+                softAssert.assertAll();
+                pause1();
+            }else
             {
+
+                Boolean isGroupAccessPopup= groupAccessPopup.isDisplayed();
+                softAssert.assertEquals(isGroupAccessPopup.booleanValue(),true);
+                softAssert.assertAll();
                 pause1();
-                driver.switchTo().window(child_window);
-                pause1();
-                FBEmail.clear();
-                FBEmail.sendKeys("anujtiwari05@gmail.com");
-                FBPass.sendKeys("anuj@passwordd");
-                FBSigninButton.click();
-                pause3();
-                driver.switchTo().window(parent_window);
-//                driver.close();
-//                scroll("scroll(0,100)");
+
             }
-       }
-   }
 
-    public void signUp() throws InterruptedException {
-        dobDay.click();
-        driver.findElement(By.xpath("/html/body/div[2]/div[2]/div/div/mat-option[3]/span")).click();
-        dobmonth.click();
-        driver.findElement(By.xpath("/html/body/div[2]/div[3]/div/div/mat-option[4]/span")).click();
-        dobYear.click();
-        driver.findElement(By.xpath("/html/body/div[2]/div[4]/div/div/mat-option[5]/span")).click();
-        pause1();
-        dobEmail.sendKeys("submit1211@gmail.com");
-        pause1();
-        dobPassword.sendKeys("123456");
-        pause1();
-        dobRegister.click();
-        pause3();
+        }else {
+            pause1();
+            Boolean isProfileAccessPopup= profileAccessPopup.isDisplayed();
+            softAssert.assertEquals(isProfileAccessPopup.booleanValue(),true);
+            softAssert.assertAll();
+        }
+
     }
-    public void logOut() throws InterruptedException
-    {
-        driver.navigate().refresh();
+    public void profileAccessDeny() throws InterruptedException {
+        pause1();
+        if(!(groupAccessPopup.isDisplayed())){
+            pause1();
+            waitForElement(driver,FbProfileAccessCancel,60);
+            pause1();
+            FbProfileAccessCancel.click();
+            Boolean isContinueFBPopup= continueFBButton.isDisplayed();
+            softAssert.assertEquals(isContinueFBPopup.booleanValue(),true);
+            softAssert.assertAll();
+            continueFBButton.click();
+            pause1();
+        }else {
+            System.out.println("User is on GroupAccessPopup");
+        }
+
+    }
+    public void profileAccessAllow() throws InterruptedException {
+        waitForElement(driver,continueAsUserButton,60);
+        pause1();
+        continueAsUserButton.click();
         pause2();
-        waitForElement(driver,logoutIcon,60);
-        logoutIcon.click();
-        waitForElement(driver,logoutButton,60);
-        logoutButton.click();
-    }
+        waitForElement(driver,groupAccessPopup,60);
+        Boolean isGroupAccessPopup= groupAccessPopup.isDisplayed();
+        softAssert.assertEquals(isGroupAccessPopup.booleanValue(),true);
+        softAssert.assertAll();
+        pause1();
 
+    }
+    public void groupAccessPopupAllow() throws InterruptedException {
+        waitForElement(driver, groupAccessOK, 60);
+        groupAccessOK.click();
+        pause3();
+        Boolean isGroupName = groupNameDashboardPage.isDisplayed();
+        Boolean isMyGroupDashboard = myGroupsDashboard.isDisplayed();
+        softAssert.assertEquals(isGroupName.booleanValue(), true);
+        softAssert.assertEquals(isMyGroupDashboard.booleanValue(), true);
+        softAssert.assertAll();
+        pause1();
+
+    }
+    public void logOutTest() throws InterruptedException {
+        pause1();
+        waitForElement(driver, logOutButton, 60);
+        pause1();
+        logOutButton.click();
+        pause2();
+        Boolean isBannerHome= homePageBannerImg.isDisplayed();
+        softAssert.assertEquals(isBannerHome.booleanValue(),true);
+        softAssert.assertAll();
+        pause();
+
+    }
 }

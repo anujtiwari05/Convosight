@@ -645,3 +645,33 @@
 2019-06-13 14:57:26 INFO  TestBase:184 - navigating to :-https://www.babydestination.com
 2019-06-13 14:57:42 INFO  RetryExec:96 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://localhost:30004: The target server failed to respond
 2019-06-13 14:57:42 INFO  RetryExec:112 - Retrying request to {}->http://localhost:30004
+2019-06-15 14:00:22 INFO  TestBase:184 - navigating to :-https://www.convosight.com
+2019-06-15 14:01:19 INFO  TestBase:184 - navigating to :-https://www.convosight.com
+2019-06-15 14:05:04 INFO  TestBase:184 - navigating to :-https://www.convosight.com
+2019-06-15 14:12:22 INFO  TestBase:184 - navigating to :-https://www.convosight.com
+2019-06-15 14:15:10 INFO  TestBase:184 - navigating to :-https://www.convosight.com
+2019-06-15 16:35:09 INFO  TestBase:184 - navigating to :-https://www.convosight.com
+2019-06-15 16:35:58 INFO  TestBase:184 - navigating to :-https://www.convosight.com
+2019-06-15 16:37:23 INFO  RetryExec:96 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://localhost:32383: The target server failed to respond
+2019-06-15 16:37:23 INFO  RetryExec:112 - Retrying request to {}->http://localhost:32383
+2019-06-15 16:41:42 INFO  TestBase:184 - navigating to :-https://www.convosight.com
+2019-06-15 16:58:47 INFO  TestBase:184 - navigating to :-https://www.convosight.com
+2019-06-15 16:59:07 INFO  TestBase:184 - navigating to :-https://www.convosight.com
+2019-06-15 17:02:55 INFO  TestBase:184 - navigating to :-https://www.convosight.com
+2019-06-15 17:03:46 INFO  RetryExec:96 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://localhost:7986: The target server failed to respond
+2019-06-15 17:03:46 INFO  RetryExec:112 - Retrying request to {}->http://localhost:7986
+2019-06-15 17:04:56 INFO  TestBase:184 - navigating to :-https://www.convosight.com
+2019-06-15 17:05:22 INFO  RetryExec:96 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://localhost:28664: The target server failed to respond
+2019-06-15 17:05:22 INFO  RetryExec:112 - Retrying request to {}->http://localhost:28664
+2019-06-15 17:15:02 INFO  TestBase:184 - navigating to :-https://www.convosight.com
+2019-06-15 17:18:51 INFO  TestBase:184 - navigating to :-https://www.convosight.com
+2019-06-15 17:24:02 INFO  TestBase:184 - navigating to :-https://www.convosight.com
+2019-06-15 17:28:10 INFO  TestBase:184 - navigating to :-https://www.convosight.com
+2019-06-15 17:31:03 INFO  TestBase:184 - navigating to :-https://www.convosight.com
+2019-06-15 17:37:07 INFO  TestBase:184 - navigating to :-https://www.convosight.com
+2019-06-15 17:41:54 INFO  TestBase:184 - navigating to :-https://www.convosight.com
+2019-06-15 17:44:39 INFO  TestBase:383 - browser closed
+2019-06-15 17:48:23 INFO  TestBase:184 - navigating to :-https://www.convosight.com
+2019-06-15 17:49:22 INFO  TestBase:383 - browser closed
+2019-06-15 17:53:36 INFO  TestBase:184 - navigating to :-https://www.convosight.com
+2019-06-15 17:54:26 INFO  TestBase:383 - browser closed
