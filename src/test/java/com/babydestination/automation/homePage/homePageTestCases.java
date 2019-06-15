@@ -12,7 +12,7 @@ public class homePageTestCases extends TestBase {
     HomePage homePage;
 
     @BeforeSuite(alwaysRun = true)
-    public void setUp()throws InterruptedException,IOException, IOException {
+    public void setUp()throws InterruptedException, IOException {
         init();
     }
 
@@ -51,7 +51,7 @@ public class homePageTestCases extends TestBase {
 
         homePage.TC7_click_seeAll();
     }
-    @Test(groups = {"Regression","Smoke"},enabled = false)
+    @Test(groups = {"Regression","Smoke"})
     public void TC8_expert_popup_submit() throws InterruptedException,IOException {
 
         homePage.TC8_expert_popup_submit();

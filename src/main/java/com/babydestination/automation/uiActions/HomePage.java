@@ -1,7 +1,5 @@
 package com.babydestination.automation.uiActions;
-import com.babydestination.automation.uiActions.blogDetailPage;
 import org.apache.log4j.Logger;
-import org.apache.xpath.operations.Bool;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -11,7 +9,6 @@ import org.testng.Assert;
 import com.babydestination.automation.testBase.TestBase;
 
 import java.io.IOException;
-import java.util.Properties;
 
 public class HomePage extends TestBase {
 
@@ -177,6 +174,7 @@ public class HomePage extends TestBase {
     public void TC5_all_categories_postcard_present() throws InterruptedException, IOException {
 
         waitForElement(driver,gettingPregCat,60);
+        scroll("scroll(0,2000)");
         pause1();
         Boolean isGettingCat = gettingPregCat.isDisplayed();
         Assert.assertEquals(isGettingCat.toString(),"true");
@@ -244,10 +242,10 @@ public class HomePage extends TestBase {
         Assert.assertEquals(driver.getCurrentUrl(),"https://www.babydestination.com/");
 
     }
-    public void TC10_video_blog_open() throws InterruptedException, IOException {
-        scroll("scroll(0,1200)");
-        waitForElement(driver,videoBlog,60);
-        videoBlog.click();
+    public void TC10_video_blog_open() throws InterruptedException{
+       scroll("scroll(0,1200)");
+       waitForElement(driver,videoBlog,60);
+       videoBlog.click();
        pause2();
        Boolean isYoutube = youtubeIcon.isDisplayed();
        Assert.assertEquals(isYoutube.toString(),"true");
@@ -270,7 +268,10 @@ public class HomePage extends TestBase {
     }
     public void TC12_all_sections_present() throws InterruptedException, IOException {
 
-        driver.navigate().refresh();pause1();
+        driver.navigate().refresh();
+        pause1();
+        scroll("scroll(0,3500)");
+        pause1();
         Boolean isGettingSection = gettingPregSection.isDisplayed();
         Assert.assertEquals(isGettingSection.toString(),"true");
         Boolean isPregSection = pregnancySection.isDisplayed();

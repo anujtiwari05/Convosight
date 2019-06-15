@@ -615,3 +615,33 @@
 2019-06-04 17:53:30 INFO  TestBase:184 - navigating to :-https://www.babydestination.com
 2019-06-04 17:53:34 INFO  TestBase:184 - navigating to :-null
 2019-06-04 17:53:35 INFO  TestBase:381 - browser closed
+2019-06-13 12:11:21 INFO  TestBase:184 - navigating to :-https://stg.babydestination.com
+2019-06-13 12:13:33 INFO  TestBase:184 - navigating to :-https://stg.babydestination.com
+2019-06-13 12:17:21 INFO  TestBase:184 - navigating to :-https://stg.babydestination.com
+2019-06-13 12:29:03 INFO  TestBase:184 - navigating to :-https://stg.babydestination.com
+2019-06-13 12:42:32 INFO  TestBase:184 - navigating to :-https://www.babydestination.com
+2019-06-13 12:42:50 INFO  RetryExec:96 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://localhost:4727: The target server failed to respond
+2019-06-13 12:42:50 INFO  RetryExec:112 - Retrying request to {}->http://localhost:4727
+2019-06-13 12:44:06 INFO  TestBase:184 - navigating to :-https://www.babydestination.com
+2019-06-13 12:44:52 INFO  RetryExec:96 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://localhost:25540: The target server failed to respond
+2019-06-13 12:44:52 INFO  RetryExec:112 - Retrying request to {}->http://localhost:25540
+2019-06-13 12:46:50 INFO  TestBase:184 - navigating to :-https://www.babydestination.com
+2019-06-13 12:46:59 INFO  RetryExec:96 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://localhost:25334: The target server failed to respond
+2019-06-13 12:46:59 INFO  RetryExec:112 - Retrying request to {}->http://localhost:25334
+2019-06-13 14:36:13 INFO  TestBase:184 - navigating to :-https://www.babydestination.com
+2019-06-13 14:36:44 INFO  TestBase:184 - navigating to :-https://www.babydestination.com
+2019-06-13 14:39:21 INFO  RetryExec:96 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://localhost:26160: The target server failed to respond
+2019-06-13 14:39:21 INFO  RetryExec:112 - Retrying request to {}->http://localhost:26160
+2019-06-13 14:39:48 INFO  TestBase:184 - navigating to :-https://www.babydestination.com
+2019-06-13 14:39:59 INFO  RetryExec:96 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://localhost:20757: The target server failed to respond
+2019-06-13 14:39:59 INFO  RetryExec:112 - Retrying request to {}->http://localhost:20757
+2019-06-13 14:52:01 INFO  TestBase:184 - navigating to :-https://www.babydestination.com
+2019-06-13 14:52:14 INFO  RetryExec:96 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://localhost:29919: The target server failed to respond
+2019-06-13 14:52:14 INFO  RetryExec:112 - Retrying request to {}->http://localhost:29919
+2019-06-13 14:53:34 INFO  TestBase:184 - navigating to :-https://www.babydestination.com
+2019-06-13 14:56:37 INFO  TestBase:184 - navigating to :-https://www.babydestination.com
+2019-06-13 14:57:02 INFO  RetryExec:96 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://localhost:12130: The target server failed to respond
+2019-06-13 14:57:02 INFO  RetryExec:112 - Retrying request to {}->http://localhost:12130
+2019-06-13 14:57:26 INFO  TestBase:184 - navigating to :-https://www.babydestination.com
+2019-06-13 14:57:42 INFO  RetryExec:96 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://localhost:30004: The target server failed to respond
+2019-06-13 14:57:42 INFO  RetryExec:112 - Retrying request to {}->http://localhost:30004
