@@ -2,10 +2,12 @@ package com.babydestination.automation.homePage;
 
 import com.babydestination.automation.testBase.TestBase;
 import com.babydestination.automation.uiActions.HomePage;
+import org.apache.commons.mail.EmailException;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
+import javax.mail.MessagingException;
 import java.io.IOException;
 
 public class homePageTestCases extends TestBase {
@@ -16,93 +18,86 @@ public class homePageTestCases extends TestBase {
         init();
     }
 
-    @Test(groups = {"Regression","Smoke"})
-    public void TC1_TopHeader_Present() throws InterruptedException,IOException {
+    @Test(groups = {"Regression","Smoke"},priority = 1)
+    public void TC1_landingPageLoaded() throws InterruptedException,IOException {
         homePage = new HomePage(driver);
-        homePage.TC1_TopHeader_Present();
+        homePage.homepage_element_test();
     }
-    @Test(groups = {"Regression"})
-    public void TC2_menuHeader_Present() throws InterruptedException,IOException {
-
-        homePage.TC2_menuHeader_Present();
+    @Test(groups = {"Regression","Smoke"},priority = 2)
+    public void TC2_login_buttonclick_test() throws InterruptedException, IOException, EmailException, MessagingException {
+        homePage = new HomePage(driver);
+        homePage.login_buttonclick_test();
     }
-    @Test(groups = {"Regression"})
-    public void TC3_footer_Present() throws InterruptedException,IOException {
-
-        homePage.TC3_footer_Present();
-    }
-    @Test(groups = {"Regression","Smoke"})
-    public void TC4_widgets_ask_WA_Present() throws InterruptedException,IOException {
-
-        homePage.TC4_widgets_ask_WA_Present();
-    }
-    @Test(groups = {"Regression","Smoke"})
-    public void TC5_all_categories_postcard_present()throws InterruptedException,IOException {
-
-        homePage.TC5_all_categories_postcard_present();
-    }
-    @Test(groups = {"Regression","Smoke"})
-    public void TC6_click_blog() throws InterruptedException,IOException {
-
-        homePage.TC6_click_blog();
-    }
-    @Test(groups = {"Regression","Smoke"})
-    public void TC7_click_seeAll() throws InterruptedException,IOException {
-
-        homePage.TC7_click_seeAll();
-    }
-    @Test(groups = {"Regression","Smoke"})
-    public void TC8_expert_popup_submit() throws InterruptedException,IOException {
-
-        homePage.TC8_expert_popup_submit();
-    }
-    @Test(groups = {"Regression","Smoke"})
-    public void TC9_whatsapp_directory_page() throws InterruptedException,IOException {
-
-        homePage.TC9_whatsapp_directory_page();
-    }
-    @Test(groups = {"Regression","Smoke"})
-    public void TC10_video_blog_open() throws InterruptedException,IOException {
-
-        homePage.TC10_video_blog_open();
-    }
-    @Test(groups = {"Regression","Smoke"})
-    public void TC11_card_blog_open() throws InterruptedException,IOException {
-
-        homePage.TC11_card_blog_open();
-    }
-    @Test(groups = {"Regression","Smoke"})
-    public void TC12_all_sections_present() throws InterruptedException,IOException {
-
-        homePage.TC12_all_sections_present();
-    }
-    @Test(groups = {"Regression","Smoke"})
-    public void TC13_partner_us_page() throws InterruptedException,IOException {
-
-        homePage.TC13_partner_us_page();
-    }
-    @Test(groups = {"Regression","Smoke"})
-    public void TC14_language_dropdown() throws InterruptedException,IOException {
-
-        homePage.TC14_language_dropdown();
-    }
-    @Test(groups = {"Regression"})
-    public void TC15_Footer_social_links_redirection() throws InterruptedException,IOException {
-
-
-        homePage.TC15_Footer_social_links_redirection();
-    }
-    @Test(groups = {"Regression"})
-    public void TC16_Footer_pages_links_redirection() throws InterruptedException,IOException {
-
-
-        homePage.TC16_Footer_pages_links_redirection();
-    }
-    @Test(groups = {"Regression"})
-    public void TC17_search_page() throws InterruptedException,IOException {
-
-
-        homePage.TC17_search_page();
-    }
+//    @Test(groups = {"Regression","Smoke"},priority = 3)
+//    public void TC3_login_test() throws InterruptedException,IOException, EmailException {
+//        homePage = new HomePage(driver);
+//        homePage.login_test();
+//
+//    }
+//    @Test(groups = {"Regression","Smoke"},priority = 4)
+//    public void TC4_categoryLink_conversationTab_test() throws InterruptedException,IOException {
+//        homePage = new HomePage(driver);
+//        homePage.categoryLink_conversationTab_test();
+//    }
+//    @Test(groups = {"Regression","Smoke"},priority = 5)
+//    public void TC5_categoryLink_keywordTab_test() throws InterruptedException,IOException {
+//        homePage = new HomePage(driver);
+//        homePage.categoryLink_keywordTab_test();
+//    }
+//    @Test(groups = {"Regression","Smoke"},priority = 6)
+//    public void TC6_categoryLink_WordcloudTab_test() throws InterruptedException,IOException {
+//        homePage = new HomePage(driver);
+//        homePage.categoryLink_WordcloudTab_test();
+//    }
+//    @Test(groups = {"Regression","Smoke"},priority = 7)
+//    public void TC7_subCategory_Linkclick_test() throws InterruptedException,IOException {
+//        homePage = new HomePage(driver);
+//        homePage.subCategory_Linkclick_test();
+//    }
+//    @Test(groups = {"Regression","Smoke"},priority = 8)
+//    public void TC8_subCategoryLink_conversationTab_test() throws InterruptedException,IOException {
+//        homePage = new HomePage(driver);
+//        homePage.subCategoryLink_conversationTab_test();
+//    }
+//    @Test(groups = {"Regression","Smoke"},priority = 9)
+//    public void TC9_subCategoryLink_KeywordTab_test() throws InterruptedException,IOException {
+//        homePage = new HomePage(driver);
+//        homePage.subCategoryLink_KeywordTab_test();
+//    }
+//    @Test(groups = {"Regression","Smoke"},priority = 10)
+//    public void TC10_subCategoryLink_SOVTab_test() throws InterruptedException,IOException {
+//        homePage = new HomePage(driver);
+//        homePage.subCategoryLink_SOVTab_test();
+//    }
+//    @Test(groups = {"Regression","Smoke"},priority = 11)
+//    public void TC11_subCategoryLink_WordcloudTab_test() throws InterruptedException,IOException {
+//        homePage = new HomePage(driver);
+//        homePage.subCategoryLink_WordcloudTab_test();
+//    }
+//    @Test(groups = {"Regression","Smoke"},priority = 12)
+//    public void TC12_brand_Linkclick_test() throws InterruptedException,IOException {
+//        homePage = new HomePage(driver);
+//        homePage.brand_Linkclick_test();
+//    }
+//    @Test(groups = {"Regression","Smoke"},priority = 13)
+//    public void TC13_brand_conversationTab_test() throws InterruptedException,IOException {
+//        homePage = new HomePage(driver);
+//        homePage.brand_conversationTab_test();
+//    }
+//    @Test(groups = {"Regression","Smoke"},priority = 14)
+//    public void TC14_brand_KaeywordTab_test() throws InterruptedException,IOException {
+//        homePage = new HomePage(driver);
+//        homePage.brand_KaeywordTab_test();
+//    }
+//    @Test(groups = {"Regression","Smoke"},priority = 15)
+//    public void TC15_brand_SentimentTab_test() throws InterruptedException,IOException {
+//        homePage = new HomePage(driver);
+//        homePage.brand_SentimentTab_test();
+//    }
+//    @Test(groups = {"Regression","Smoke"},priority = 16)
+//    public void TC16_brand_WordcloudTab_test() throws InterruptedException,IOException {
+//        homePage = new HomePage(driver);
+//        homePage.brand_WordcloudTab_test();
+//    }
 
 }

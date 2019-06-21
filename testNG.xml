@@ -4,12 +4,10 @@
 <suite name="Default Suite">
 
 
-<!--    <test name="Facebook Login">-->
-<!--        <parameter name="FbEmail" value="anujtiwari05@gmail.com"/>-->
-<!--      -->
-<!--        <classes>-->
-<!--            <class name="com.babydestination.automation.uiActions.loginSignup" />-->
-<!--        </classes>-->
-<!--    </test>-->
+    <test name="brands convosight">
+        <classes>
+            <class name="com.babydestination.automation.homePage.homePageTestCases" />
+        </classes>
+    </test>
 
 </suite>

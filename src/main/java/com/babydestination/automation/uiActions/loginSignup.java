@@ -96,8 +96,8 @@ public class loginSignup extends TestBase {
 
         if(loginFacebookPage.isDisplayed()){
             pause1();
-            FbEmail.sendKeys("anujtiwari05@gmail.com");
-            FbPass.sendKeys("anuj@passwordd");
+            FbEmail.sendKeys("testbd123@gmail.com");
+            FbPass.sendKeys("test@password");
             pause1();
             FBloginButton.click();
             pause();
@@ -128,7 +128,7 @@ public class loginSignup extends TestBase {
     }
     public void profileAccessDeny() throws InterruptedException {
         pause1();
-        if(!(groupAccessPopup.isDisplayed())){
+        if(groupAccessPopup.isDisplayed()){
             pause1();
             waitForElement(driver,FbProfileAccessCancel,60);
             pause1();

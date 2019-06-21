@@ -675,3 +675,93 @@
 2019-06-15 17:49:22 INFO  TestBase:383 - browser closed
 2019-06-15 17:53:36 INFO  TestBase:184 - navigating to :-https://www.convosight.com
 2019-06-15 17:54:26 INFO  TestBase:383 - browser closed
+2019-06-15 18:28:15 INFO  TestBase:184 - navigating to :-https://www.convosight.com
+2019-06-17 13:49:44 INFO  TestBase:184 - navigating to :-http://brand.convosight.com
+2019-06-17 13:51:46 INFO  TestBase:184 - navigating to :-http://brand.convosight.com
+2019-06-17 13:53:11 INFO  RetryExec:96 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://localhost:26457: The target server failed to respond
+2019-06-17 13:53:11 INFO  RetryExec:112 - Retrying request to {}->http://localhost:26457
+2019-06-17 13:53:41 INFO  TestBase:184 - navigating to :-http://brand.convosight.com
+2019-06-17 13:54:32 INFO  TestBase:184 - navigating to :-http://brand.convosight.com
+2019-06-17 13:55:02 INFO  TestBase:383 - browser closed
+2019-06-17 13:56:37 INFO  TestBase:184 - navigating to :-http://brand.convosight.com
+2019-06-17 13:57:01 INFO  TestBase:383 - browser closed
+2019-06-17 14:00:46 INFO  TestBase:184 - navigating to :-http://brand.convosight.com
+2019-06-17 14:01:12 INFO  TestBase:383 - browser closed
+2019-06-17 14:01:58 INFO  TestBase:184 - navigating to :-http://brand.convosight.com
+2019-06-17 14:02:24 INFO  TestBase:383 - browser closed
+2019-06-17 14:03:46 INFO  TestBase:184 - navigating to :-http://brand.convosight.com
+2019-06-17 14:04:22 INFO  TestBase:383 - browser closed
+2019-06-17 14:08:13 INFO  TestBase:184 - navigating to :-http://brand.convosight.com
+2019-06-17 14:08:39 INFO  TestBase:383 - browser closed
+2019-06-17 14:11:54 INFO  TestBase:184 - navigating to :-http://brand.convosight.com
+2019-06-17 14:12:21 INFO  TestBase:383 - browser closed
+2019-06-17 14:14:01 INFO  TestBase:184 - navigating to :-http://brand.convosight.com
+2019-06-17 14:16:44 INFO  TestBase:184 - navigating to :-http://brand.convosight.com
+2019-06-17 14:17:08 INFO  TestBase:383 - browser closed
+2019-06-17 14:25:19 INFO  TestBase:184 - navigating to :-http://brand.convosight.com
+2019-06-17 14:29:39 INFO  TestBase:184 - navigating to :-http://brand.convosight.com
+2019-06-17 14:34:01 INFO  TestBase:184 - navigating to :-http://brand.convosight.com
+2019-06-17 14:34:25 INFO  TestBase:383 - browser closed
+2019-06-17 14:35:59 INFO  TestBase:184 - navigating to :-http://brand.convosight.com
+2019-06-17 14:38:37 INFO  TestBase:184 - navigating to :-http://brand.convosight.com
+2019-06-17 14:41:29 INFO  TestBase:184 - navigating to :-http://brand.convosight.com
+2019-06-17 14:53:51 INFO  TestBase:184 - navigating to :-http://brand.convosight.com
+2019-06-17 14:54:18 INFO  TestBase:383 - browser closed
+2019-06-17 14:57:33 INFO  TestBase:184 - navigating to :-http://brand.convosight.com
+2019-06-17 15:02:21 INFO  TestBase:184 - navigating to :-http://brand.convosight.com
+2019-06-17 15:03:06 INFO  TestBase:184 - navigating to :-http://brand.convosight.com
+2019-06-17 15:03:30 INFO  TestBase:383 - browser closed
+2019-06-17 15:04:31 INFO  TestBase:184 - navigating to :-http://brand.convosight.com
+2019-06-17 15:24:01 INFO  TestBase:184 - navigating to :-http://brand.convosight.com
+2019-06-17 15:24:32 INFO  TestBase:383 - browser closed
+2019-06-17 15:27:41 INFO  TestBase:184 - navigating to :-http://brand.convosight.com
+2019-06-17 15:32:32 INFO  TestBase:184 - navigating to :-http://brand.convosight.com
+2019-06-17 15:32:58 INFO  TestBase:383 - browser closed
+2019-06-17 15:34:50 INFO  TestBase:184 - navigating to :-http://brand.convosight.com
+2019-06-17 15:42:45 INFO  TestBase:184 - navigating to :-http://brand.convosight.com
+2019-06-17 15:56:09 INFO  TestBase:184 - navigating to :-http://brand.convosight.com
+2019-06-18 15:15:57 INFO  TestBase:184 - navigating to :-http://brand.convosight.com
+2019-06-18 15:18:19 INFO  TestBase:184 - navigating to :-http://brand.convosight.com
+2019-06-18 15:19:03 INFO  TestBase:383 - browser closed
+2019-06-18 16:35:38 INFO  TestBase:184 - navigating to :-http://brand.convosight.com
+2019-06-19 12:18:55 INFO  TestBase:185 - navigating to :-http://brand.convosight.com
+2019-06-19 12:19:20 INFO  TestBase:185 - navigating to :-http://brand.convosight.com
+2019-06-19 12:19:39 INFO  TestBase:384 - browser closed
+2019-06-19 12:21:11 INFO  TestBase:185 - navigating to :-http://brand.convosight.com
+2019-06-19 12:21:21 INFO  TestBase:384 - browser closed
+2019-06-19 12:21:54 INFO  TestBase:185 - navigating to :-http://brand.convosight.com
+2019-06-19 12:22:05 INFO  TestBase:384 - browser closed
+2019-06-19 12:24:03 INFO  TestBase:185 - navigating to :-http://brand.convosight.com
+2019-06-19 12:24:43 INFO  TestBase:384 - browser closed
+2019-06-19 12:27:58 INFO  TestBase:185 - navigating to :-http://brand.convosight.com
+2019-06-19 12:28:08 INFO  TestBase:384 - browser closed
+2019-06-19 12:32:09 INFO  TestBase:185 - navigating to :-http://brand.convosight.com
+2019-06-19 12:32:24 INFO  TestBase:384 - browser closed
+2019-06-19 12:38:34 INFO  TestBase:185 - navigating to :-http://brand.convosight.com
+2019-06-19 12:38:53 INFO  TestBase:384 - browser closed
+2019-06-19 12:45:49 INFO  TestBase:185 - navigating to :-http://brand.convosight.com
+2019-06-19 12:46:10 INFO  TestBase:384 - browser closed
+2019-06-19 12:49:18 INFO  TestBase:185 - navigating to :-http://brand.convosight.com
+2019-06-19 12:49:34 INFO  TestBase:384 - browser closed
+2019-06-19 12:50:33 INFO  TestBase:185 - navigating to :-http://brand.convosight.com
+2019-06-19 12:50:45 INFO  TestBase:384 - browser closed
+2019-06-19 12:56:46 INFO  TestBase:185 - navigating to :-http://brand.convosight.com
+2019-06-19 12:56:56 INFO  TestBase:384 - browser closed
+2019-06-21 12:36:14 INFO  TestBase:185 - navigating to :-http://brand.convosight.com
+2019-06-21 12:36:24 INFO  TestBase:384 - browser closed
+2019-06-21 12:37:01 INFO  TestBase:185 - navigating to :-http://brand.convosight.com
+2019-06-21 12:37:17 INFO  TestBase:384 - browser closed
+2019-06-21 12:43:24 INFO  TestBase:185 - navigating to :-http://brand.convosight.com
+2019-06-21 12:44:03 INFO  TestBase:384 - browser closed
+2019-06-21 12:50:10 INFO  TestBase:185 - navigating to :-http://brand.convosight.com
+2019-06-21 12:50:47 INFO  TestBase:185 - navigating to :-http://brand.convosight.com
+2019-06-21 12:50:57 INFO  TestBase:384 - browser closed
+2019-06-21 12:51:34 INFO  TestBase:185 - navigating to :-http://brand.convosight.com
+2019-06-21 12:51:44 INFO  TestBase:384 - browser closed
+2019-06-21 12:54:54 INFO  TestBase:185 - navigating to :-http://brand.convosight.com
+2019-06-21 12:55:08 INFO  TestBase:384 - browser closed
+2019-06-21 12:58:59 INFO  TestBase:185 - navigating to :-http://brand.convosight.com
+2019-06-21 12:59:20 INFO  TestBase:384 - browser closed
+2019-06-21 13:08:18 INFO  TestBase:185 - navigating to :-http://brand.convosight.com
+2019-06-21 13:08:38 INFO  TestBase:185 - navigating to :-http://brand.convosight.com
+2019-06-21 13:09:02 INFO  TestBase:384 - browser closed
