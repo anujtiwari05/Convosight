@@ -16,7 +16,6 @@ import java.io.IOException;
 
 public class HomePage extends TestBase {
     SoftAssert softAssert=new SoftAssert();
-    SendEmail email=new SendEmail();
 
     public static final Logger log = Logger.getLogger(HomePage.class.getName());
     @FindBy(xpath = "/html/body/app-root/app-brand-landing-page/div/div[2]/img")
@@ -114,7 +113,7 @@ public class HomePage extends TestBase {
         Boolean isEmail=enterEmail.isDisplayed();
         softAssert.assertEquals(isEmail.booleanValue(),true);
         softAssert.assertAll();
-        email.emailSend();
+
 
     }
     public void login_test() throws InterruptedException, IOException , EmailException {

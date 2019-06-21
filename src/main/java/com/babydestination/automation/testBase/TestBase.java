@@ -2,6 +2,7 @@ package com.babydestination.automation.testBase;
 
 import com.babydestination.automation.customListner.WebEventListener;
 import com.babydestination.automation.excelReader.Excel_Reader;
+import com.babydestination.automation.notificationHelper.SendEmail;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
@@ -23,6 +24,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
+import javax.mail.MessagingException;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -64,7 +66,7 @@ public class TestBase {
 
 	static {
 		Calendar calendar = Calendar.getInstance();
-		SimpleDateFormat formater = new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss");
+		SimpleDateFormat formater = new SimpleDateFormat("dd_MM_yyyy_hh");
 		extent = new ExtentReports(System.getProperty("user.dir") + "/src/main/java/com/babydestination/automation/report/test" + formater.format(calendar.getTime()) + ".html", false);
 //		extent = new ExtentReports( "https://hooks.slack.com/services/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"+formater.format(calendar.getTime()) + ".html", false);
 	}
@@ -374,9 +376,13 @@ public class TestBase {
 	}
 
 	@AfterClass(alwaysRun = false)
-	public void endTest() {
+	public void endTest() throws MessagingException, InterruptedException {
+
 		closeBrowser();
 		Quit();
+		pause();
+		SendEmail se= new SendEmail();
+		se.emailSend();
 	}
 
 	public void closeBrowser() {
