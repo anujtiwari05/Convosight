@@ -9,6 +9,7 @@ import com.relevantcodes.extentreports.LogStatus;
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
+import org.junit.After;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -22,6 +23,7 @@ import org.testng.ITestResult;
 import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
 
 import javax.mail.MessagingException;
@@ -75,6 +77,7 @@ public class TestBase {
 		File file = new File(System.getProperty("user.dir") + "/src/main/java/com/babydestination/automation/config/config.properties");
 		FileInputStream f = new FileInputStream(file);
 		OR.load(f);
+
 	}
 
 	public void engPropFile() throws IOException {
@@ -115,8 +118,16 @@ public class TestBase {
 	public void setDriver(EventFiringWebDriver driver) {
 		this.driver = driver;
 	}
+	public static String fileName()
+	{
+		Calendar calendar = Calendar.getInstance();
+		SimpleDateFormat formater = new SimpleDateFormat("dd_MM_yyyy_hh");
+		String file =System.getProperty("user.dir") + "/src/main/java/com/babydestination/automation/report/test" + formater.format(calendar.getTime()) + ".html";
+		return file;
+	}
 
 	public void init() throws IOException,InterruptedException {
+		fileName();
 		loadData();
 		String log4jConfPath = "log4j.properties";
 		PropertyConfigurator.configure(log4jConfPath);
@@ -359,9 +370,10 @@ public class TestBase {
 			String screen = captureScreen("");
 //			String screen =getScreenShot("");
 			test.log(LogStatus.FAIL, test.addScreenCapture(screen));
-		} else if (result.getStatus() == ITestResult.STARTED) {
-			test.log(LogStatus.INFO, result.getName() + " test is started");
 		}
+//		else if (result.getStatus() == ITestResult.STARTED) {
+//			test.log(LogStatus.INFO, result.getName() + " test is started");
+//		}
 	}
 
 	@AfterMethod()
@@ -380,7 +392,11 @@ public class TestBase {
 
 		closeBrowser();
 		Quit();
-		pause();
+
+
+	}
+	@AfterSuite(alwaysRun = true)
+	public void endTest_sendMail() throws MessagingException {
 		SendEmail se= new SendEmail();
 		se.emailSend();
 	}

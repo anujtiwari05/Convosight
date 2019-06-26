@@ -1,4 +1,3 @@
+com/babydestination/automation/TestRunner.class
 com/babydestination/automation/homePage/homePageTestCases.class
-com/babydestination/automation/forumPage/forumPageTestCases.class
 com/babydestination/automation/loginSignup/loginPageTestCases.class
-com/babydestination/automation/blogDetailPage/blogPageTestCases.class

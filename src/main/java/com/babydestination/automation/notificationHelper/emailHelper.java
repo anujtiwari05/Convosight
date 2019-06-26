@@ -1,6 +1,10 @@
 package com.babydestination.automation.notificationHelper;
 
 //import org.eclipse.jetty.websocket.api.Session;
+import com.babydestination.automation.testBase.TestBase;
+import com.relevantcodes.extentreports.ExtentReports;
+import org.apache.poi.ss.formula.functions.T;
+
 import javax.mail.Session;
 
 import javax.activation.DataHandler;
@@ -16,9 +20,9 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
-public class emailHelper{
+public class emailHelper extends TestBase {
 
- public static void sendAttachmentEmail(Session session, String toEmail, String subject, String body){
+ public static void sendAttachmentEmail(Session session,String [] sendTo, String subject, String body){
      Calendar calendar = Calendar.getInstance();
      SimpleDateFormat formater = new SimpleDateFormat("dd_MM_yyyy_hh");
 
@@ -30,13 +34,12 @@ public class emailHelper{
 
         msg.setFrom(new InternetAddress("anujtiwari05@gmail.com"));
 
-        msg.setReplyTo(InternetAddress.parse("anujtfr@gmail.com",false));
-
         msg.setSubject(subject,"UTF-8");
 
         msg.setSentDate(new Date());
 
-        msg.setRecipients(Message.RecipientType.TO,InternetAddress.parse(toEmail,false));
+//        msg.setRecipients(javax.mail.internet.MimeMessage.RecipientType.TO, sendTo);
+
 
         // Create the message body part
         BodyPart messageBodyPart=new MimeBodyPart();
@@ -52,6 +55,7 @@ public class emailHelper{
 
         // Second part is attachment
         messageBodyPart=new MimeBodyPart();
+       
         String filename=System.getProperty("user.dir")+"/src/main/java/com/babydestination/automation/report/test"+formater.format(calendar.getTime())+".html";
         DataSource source=new FileDataSource(filename);
         messageBodyPart.setDataHandler(new DataHandler(source));

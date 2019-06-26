@@ -89,7 +89,7 @@ public class homePageTestCases extends TestBase {
     @Test(groups = {"Regression","Smoke"},priority = 14)
     public void TC14_brand_KaeywordTab_test() throws InterruptedException,IOException {
         homePage = new HomePage(driver);
-        homePage.brand_KaeywordTab_test();
+        homePage.brand_KeywordTab_test();
     }
     @Test(groups = {"Regression","Smoke"},priority = 15)
     public void TC15_brand_SentimentTab_test() throws InterruptedException,IOException {
@@ -100,6 +100,16 @@ public class homePageTestCases extends TestBase {
     public void TC16_brand_WordcloudTab_test() throws InterruptedException,IOException {
         homePage = new HomePage(driver);
         homePage.brand_WordcloudTab_test();
+    }
+    @Test(groups = {"Regression","Smoke"},priority = 17)
+    public void TC17_filter_button_clickable_test() throws InterruptedException,IOException {
+        homePage = new HomePage(driver);
+        homePage.filter_Button_Test();
+    }
+    @Test(groups = {"Regression","Smoke"},priority = 18)
+    public void TC18_logout_button_test() throws InterruptedException,IOException {
+        homePage = new HomePage(driver);
+        homePage.logout_Button_Test();
     }
 
 }

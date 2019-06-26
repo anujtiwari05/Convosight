@@ -1,12 +1,11 @@
-com/babydestination/automation/uiActions/expertArticlePopup.class
 com/babydestination/automation/customListner/Retry.class
-com/babydestination/automation/uiActions/forumPage.class
+com/babydestination/automation/notificationHelper/SendEmail.class
+com/babydestination/automation/notificationHelper/SendEmail$1.class
 com/babydestination/automation/uiActions/HomePage.class
 com/babydestination/automation/customListner/WebEventListener.class
-com/babydestination/automation/uiActions/whatsappDirectory.class
 com/babydestination/automation/uiActions/loginSignup.class
-com/babydestination/automation/uiActions/blogDetailPage.class
 com/babydestination/automation/customListner/RetryListener.class
+com/babydestination/automation/notificationHelper/emailHelper.class
 com/babydestination/automation/testBase/TestBase.class
 com/babydestination/automation/excelReader/Excel_Reader.class
 com/babydestination/automation/customListner/Listener.class
